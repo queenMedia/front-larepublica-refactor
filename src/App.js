@@ -612,6 +612,7 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/fakeNames/santiagoPE.png"
             }
           />
+          <SideTitle txt={"SIGUE ESTOS 3 SENCILLOS PASOS PARA EMPEZAR:"} />
           <Step1 />
         </div>
       </body>
