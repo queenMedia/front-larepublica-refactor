@@ -26,10 +26,10 @@ function App() {
     <div className="container">
       <header className="headerContainer">
         <div className="topHeader">
-          <div type="button" class="css-10nqdzz">
-            <span class="css-1qt2np7"></span>
-            <span class="css-1qt2np7"></span>
-            <span class="css-1qt2np7"></span>
+          <div type="button" className="css-10nqdzz">
+            <span className="css-1qt2np7"></span>
+            <span className="css-1qt2np7"></span>
+            <span className="css-1qt2np7"></span>
           </div>
           <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg " />
           <img className="iconSearch" src={IconSearch} />
