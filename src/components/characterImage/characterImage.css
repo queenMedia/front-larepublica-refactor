@@ -1,6 +1,6 @@
 .img-with-text {
   text-align: justify;
-  width: [width of img];
+ 
   margin-bottom: 20px;
 }
 .img-with-text p {
@@ -9,6 +9,7 @@
   text-align: center;
 }
 .img-with-text img {
+  max-width: 98%;
   display: block;
   margin: 0 auto;
 }

@@ -84,6 +84,56 @@ function App() {
             </p>
           </div>
           <LinkButton />
+          <CharacterImage
+            src={
+              "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img2.jpg"
+            }
+            txt={
+              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+            }
+          />
+          <LinkButton />
+          <div className="content-text">
+            <p>
+              El presidente de Perú, Martin Vizcarra, es famoso por no guardarse
+              ningún secreto y por hablar simple y llanamente de como gana su
+              dinero. Y siempre está ansioso por ayudar a la gente común.
+            </p>
+            <p>
+              La semana pasada Martin Vizcarra fue entrevistado en el programa
+              "Cara a Cara" y anunció una nueva "laguna" que, según él, puede
+              hacer que cualquier persona sea millonaria en 3-4 meses. Martin
+              Vizcarra animó a todas las personas en América Latina a que
+              aprovechen esta increíble oportunidad antes de que los grandes
+              bancos acaben con ella para siempre.
+            </p>
+            <p>
+              Y, por supuesto, minutos después de que se acabara la entrevista,
+              Banco de Crédito del Perú llamó para solicitar que no la
+              publicaran... pero ya era demasiado tarde.
+            </p>
+            <h3>Esto fue lo que pasó exactamente:</h3>
+            <p>
+              El presentador de "Cara a Cara", Enrique Chávez, invitó a Martin
+              Vizcarra al programa para que compartiera sus consejos sobre cómo
+              generar riquezas y así fue como él reveló el gran secreto.
+            </p>
+            <p>
+              "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
+              nuevas oportunidades, sin dudarlo. Y en este momento mi método #1
+              para hacer dinero es un nuevo programa que hace transacciones
+              automáticas con criptomonedas llamado Bitcoin Code. En toda mi
+              vida no había visto una oportunidad tan increíble como esta, que
+              te permite generar una fortuna en poco tiempo. Le recomiendo a
+              todo el mundo que lo visite antes de que los bancos lo manden a
+              cerrar."
+            </p>
+            <p>
+              Enrique Chávez no lo podía creer cuando Martin Vizcarra sacó su
+              teléfono y mostró a los televidentes cuánto dinero hace con este
+              nuevo programa que está sorprendiendo a todo el mundo en Perú.
+            </p>
+          </div>
         </div>
         <div className="sidebar">
           <SideTitle txt={"RESULTADOS DE NUESTROS LECTORES"} />
