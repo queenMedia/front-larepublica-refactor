@@ -7,6 +7,7 @@ import { SideTitle } from "./components/sideTitle/sideTitle";
 import { SideTestimonial } from "./components/sideTestimonial/sideTestimonial";
 import { LinkButton } from "./components/linkButton/linkButton";
 import { ReadMore } from "./components/readMore/readMore";
+import { Step1 } from "./components/steps/step1";
 import IconSearch from "./assets/images/search-elcomercio.svg";
 import { css } from "@emotion/css";
 
@@ -611,6 +612,7 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/fakeNames/santiagoPE.png"
             }
           />
+          <Step1 />
         </div>
       </body>
       <footer>

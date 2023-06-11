@@ -1,9 +1,9 @@
-h2 {
+.linkButton h2 {
   width: fit-content;
   margin: 40px auto 35px !important;
   padding: 0px !important;
 }
-a {
+.linkButton a {
   text-decoration: none;
   display: block;
   padding: 25px 60px;
@@ -17,7 +17,7 @@ a {
   z-index: 0;
   text-align: center;
 }
-a:hover {
+.linkButton a:hover {
   animation: 0.5s ease 0s 1 normal forwards running animation-1h6fjxi;
 }
 @keyframes animation-1h6fjxi {
