@@ -19,9 +19,9 @@ function App() {
     width: ${scrollProgress}%;
     transition: width 0.3s ease-out;
   `;
-  const handleScroll = (event) => {
-    setscrollProgress(event.currentTarget.scrollTop);
-  };
+  window.addEventListener("scroll", (event) => {
+    setscrollProgress(window.scrollY / 100 - 20);
+  });
   return (
     <div className="container">
       <header className="headerContainer">

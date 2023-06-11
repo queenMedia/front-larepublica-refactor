@@ -12,6 +12,7 @@
   margin: auto;
   width: 100%;
   max-width: 1130px;
+  z-index: 1;
   background-color: white;
 }
 .iconSearch {
