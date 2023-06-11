@@ -1,7 +1,7 @@
 .sideTitle-with-text {
   display: flex;
   flex-direction: column;
- 
+  margin: 5px 0px 20px;
 }
 .sideTitle-with-text div {
   width: 100%;
