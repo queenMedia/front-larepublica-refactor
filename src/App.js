@@ -1,12 +1,16 @@
 import "./App.css";
+import { useState } from "react";
 import { Title } from "./components/title/title";
 import { SubTitle } from "./components/subTitle/subTitle";
 import { CharacterImage } from "./components/characterImage/characterImage";
 import { SideTitle } from "./components/sideTitle/sideTitle";
 import { SideTestimonial } from "./components/sideTestimonial/sideTestimonial";
 import { LinkButton } from "./components/linkButton/linkButton";
+import { ReadMore } from "./components/readMore/readMore";
 
 function App() {
+  const [readMore, setReadmore] = useState(false);
+
   return (
     <div className="container">
       <header className="headerContainer">
@@ -181,6 +185,8 @@ function App() {
               satisfactoria.
             </p>
           </div>
+          <ReadMore onClick={setReadmore} />
+          {readMore ? <div>more</div> : ""}
         </div>
         <div className="sidebar">
           <SideTitle txt={"RESULTADOS DE NUESTROS LECTORES"} />

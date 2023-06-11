@@ -1,0 +1,31 @@
+.readMore-container {
+  text-align: center;
+}
+.readMore-container button {
+  background-color: red;
+  width: 80%;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin: 30px auto;
+  border: none;
+}
+.readMore-container button:hover {
+  cursor: pointer;
+  transition: all 0.1s linear 0s;
+  animation: 1s ease 0s 1 normal forwards running animation-a6cgor;
+}
+@keyframes animation-a6cgor {
+  0% {
+    width: 80%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
