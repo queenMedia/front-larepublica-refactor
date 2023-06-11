@@ -8,10 +8,20 @@ import { SideTestimonial } from "./components/sideTestimonial/sideTestimonial";
 import { LinkButton } from "./components/linkButton/linkButton";
 import { ReadMore } from "./components/readMore/readMore";
 import IconSearch from "./assets/images/search-elcomercio.svg";
+import { css } from "@emotion/css";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
-
+  const [scrollProgress, setscrollProgress] = useState(0);
+  const progressBarFill = (scrollProgress) => css`
+    height: 100%;
+    background-color: red;
+    width: ${scrollProgress}%;
+    transition: width 0.3s ease-out;
+  `;
+  const handleScroll = (event) => {
+    setscrollProgress(event.currentTarget.scrollTop);
+  };
   return (
     <div className="container">
       <header className="headerContainer">
@@ -19,6 +29,9 @@ function App() {
           <div>menu</div>
           <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg " />
           <img className="iconSearch" src={IconSearch} />
+        </div>
+        <div className="pregressBar">
+          <div className={progressBarFill(scrollProgress)}></div>
         </div>
         <div className="bottomHeader">
           <div>ÚLTIMAS NOTICIAS</div>
