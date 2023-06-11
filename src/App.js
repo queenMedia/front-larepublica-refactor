@@ -7,6 +7,7 @@ import { SideTitle } from "./components/sideTitle/sideTitle";
 import { SideTestimonial } from "./components/sideTestimonial/sideTestimonial";
 import { LinkButton } from "./components/linkButton/linkButton";
 import { ReadMore } from "./components/readMore/readMore";
+import IconSearch from "./assets/images/search-elcomercio.svg";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -17,7 +18,7 @@ function App() {
         <div className="topHeader">
           <div>menu</div>
           <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg " />
-          <div>search</div>
+          <img className="iconSearch" src={IconSearch} />
         </div>
         <div className="bottomHeader">
           <div>ÚLTIMAS NOTICIAS</div>
@@ -519,7 +520,7 @@ function App() {
           ) : (
             ""
           )}
-          
+
         </div>
         <div className="sidebar">
           <SideTitle txt={"RESULTADOS DE NUESTROS LECTORES"} />

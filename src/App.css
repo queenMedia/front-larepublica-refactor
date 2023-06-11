@@ -13,6 +13,15 @@
   width: 100%;
   max-width: 1130px;
 }
+.iconSearch {
+  display: block;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  /* min-height: 20px;
+  object-fit: contain; */
+}
 .topHeader {
   background-color: red;
   padding: 12px 15px;
@@ -44,7 +53,6 @@
 .content {
   /* background-color: green; */
   width: 70%;
- 
 }
 .sidebar {
   /* background-color: yellow; */
