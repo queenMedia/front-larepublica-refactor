@@ -1,0 +1,17 @@
+.sideTestimonial img {
+  width: 100%;
+}
+.sideTestimonial p {
+  margin-top: 10px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 51);
+  font-style: italic;
+  font-family: "Open Sans";
+  font-size: 19px;
+}
+.sideTestimonial span {
+  font-weight: bold;
+  line-height: 1.7rem;
+  font-style: italic;
+}

@@ -5,7 +5,7 @@ export const SideTestimonial = (props) => {
     <>
       <div class="sideTestimonial">
         <img src={props.src} alt="sometext" />
-        <p>{props.txt}</p>
+        <p>"{props.txt}"</p>
         <span>{props.name}</span>
       </div>
     </>
