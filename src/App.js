@@ -1,5 +1,8 @@
 import "./App.css";
-
+import { Title } from "./components/title/title";
+import { SubTitle } from "./components/subTitle/subTitle";
+import { CharacterImage } from "./components/characterImage/characterImage";
+import { SideTitle } from "./components/sideTitle/sideTitle";
 
 function App() {
   return (
@@ -26,8 +29,17 @@ function App() {
       </header>
       <body className="bodyContainer">
         <div className="content">
-          <div>title</div>
-          <div>image</div>
+          <Title />
+          <SubTitle />
+          <img src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg" />
+          <CharacterImage
+            src={
+              "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img1.jpg"
+            }
+            txt={
+              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+            }
+          />
           <div>image</div>
           <div>image</div>
           <div>image</div>
@@ -36,7 +48,8 @@ function App() {
           <div>image</div>
         </div>
         <div className="sidebar">
-          <div>title</div>
+          <SideTitle txt={"RESULTADOS DE NUESTROS LECTORES"} />
+          <SideTitle txt={"GANANCIAS: S/26,952"} />
           <div>image</div>
           <div>image</div>
           <div>image</div>

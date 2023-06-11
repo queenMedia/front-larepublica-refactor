@@ -1,0 +1,17 @@
+.sideTitle-with-text {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.sideTitle-with-text div {
+  width: 100%;
+  margin: 10px 0px;
+  font-style: italic;
+  font-size: 21px;
+  font-family: Georgia-italic;
+  color: rgb(102, 102, 102);
+}
+.sideTitle-with-text span {
+  width: 100%;
+  border-bottom: 2px solid rgb(1, 152, 189);
+}
