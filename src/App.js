@@ -4,6 +4,7 @@ import { SubTitle } from "./components/subTitle/subTitle";
 import { CharacterImage } from "./components/characterImage/characterImage";
 import { SideTitle } from "./components/sideTitle/sideTitle";
 import { SideTestimonial } from "./components/sideTestimonial/sideTestimonial";
+import { LinkButton } from "./components/linkButton/linkButton";
 
 function App() {
   return (
@@ -82,6 +83,7 @@ function App() {
               nuevo programa que está sorprendiendo a todo el mundo en Perú.
             </p>
           </div>
+          <LinkButton />
         </div>
         <div className="sidebar">
           <SideTitle txt={"RESULTADOS DE NUESTROS LECTORES"} />
