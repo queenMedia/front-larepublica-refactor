@@ -232,11 +232,8 @@ function App() {
                   algo muy diferente. ¡Y por eso es que los grandes bancos están
                   tratando de ocultarlo! Los grandes bancos están todo el tiempo
                   generando propaganda y diciendo que las criptomonedas y las
-                  plataformas como
-                  <a href={LINK} target="_blank">
-                    Bitcoin Code
-                  </a>
-                  son un fraude. ¿Por qué? Temen que sus beneficios corporativos
+                  plataformas como <a href={LINK} target="_blank">
+                    Bitcoin Code</a> son un fraude. ¿Por qué? Temen que sus beneficios corporativos
                   disminuyan una vez que sus clientes aprendan a generar
                   riquezas masivas por su cuenta.
                 </p>
@@ -255,11 +252,8 @@ function App() {
                 <p>
                   Lo comparto porque ya he recibido cientos de correos de
                   personas que me agradecen por compartir este secreto. Mi
-                  favorito es el de un joven que gracias al dinero que hizo con
-                  <a href={LINK} target="_blank">
-                    Bitcoin Code
-                  </a>
-                  le regaló a su hermano menor el auto de sus sueños: un Ferrari
+                  favorito es el de un joven que gracias al dinero que hizo con <a href={LINK} target="_blank">
+                    Bitcoin Code</a> le regaló a su hermano menor el auto de sus sueños: un Ferrari
                   488 Pista. Esta plataforma de verdad está haciendo que la vida
                   de todas las personas del mundo sea un poco mejor".
                 </p>
@@ -285,11 +279,9 @@ function App() {
                   perdieran el dinero que ganan con su esfuerzo.
                 </p>
                 <p>
-                  Así que nuestro equipo editorial probó
-                  <a href={LINK} target="_blank">
+                  Así que nuestro equipo editorial probó <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  para asegurarse que en verdad funciona como dice Martin
+                  </a> para asegurarse que en verdad funciona como dice Martin
                   Vizcarra. Uno de nuestros editores en línea, Juan Gómez, se
                   ofreció como voluntario y arriesgó su propio dinero para
                   probar Bitcoin Code.
@@ -341,11 +333,9 @@ function App() {
                   la moneda que prefieras.
                 </p>
                 <p>
-                  El sistema de
-                  <a href={LINK} target="_blank">
+                  El sistema de <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  es una plataforma que hace transacciones automáticas con
+                  </a> es una plataforma que hace transacciones automáticas con
                   criptomonedas. El software utiliza algoritmos avanzados de
                   inteligencia artificial y aprendizaje automático para predecir
                   exactamente cuándo las criptomonedas subirán o bajarán. Luego
@@ -399,11 +389,9 @@ function App() {
                   El día siguiente era martes y tenía que ir a trabajar otra
                   vez. Si les soy sincero (y no le digan esto a mi jefe), fue
                   difícil concentrarme en el trabajo mientras pensaba que el
-                  software de
-                  <a href={LINK} target="_blank">
+                  software de <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  me estaba generando dinero.
+                  </a> me estaba generando dinero.
                 </p>
                 <p>
                   Me escapé al baño varias veces para revisar cómo iban mis
@@ -430,11 +418,9 @@ function App() {
               <div className="content-text">
                 <h6>Juan dice,</h6>
                 <p>
-                  “Ahora hago regularmente unos S/2,500 – 5.000 al día gracias a
-                  <a href={LINK} target="_blank">
+                  “Ahora hago regularmente unos S/2,500 – 5.000 al día gracias a <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  . El dinero se deposita en mi cuenta del banco cada par de
+                  </a>. El dinero se deposita en mi cuenta del banco cada par de
                   días. Con solo unos cuantos clics recibo mi dinero en las
                   siguientes 24 a 48 horas. Cada vez que veo la transferencia en
                   mi cuenta, tengo que pellizcarme para asegurarme de que no
@@ -451,11 +437,9 @@ function App() {
                 <p>
                   Nada de esto sería posible sin la generosidad del Sr. Martin
                   Vizcarra, quien compartió este secreto en la TV en vivo. Y me
-                  alegra haberme atrevido a probar
-                  <a href={LINK} target="_blank">
+                  alegra haberme atrevido a probar <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  yo mismo. Mi esposa está más feliz que nunca y la despensa de
+                  </a> yo mismo. Mi esposa está más feliz que nunca y la despensa de
                   juguetes de mis hijos está hasta el tope
                 </p>
                 <p>
@@ -487,11 +471,9 @@ function App() {
                 </p>
                 <h3>ESTA ES LA GUÍA PASO A PASO:</h3>
                 <p>
-                  Lo primero que ves es un video que presume del poder de
-                  <a href={LINK} target="_blank">
+                  Lo primero que ves es un video que presume del poder de <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  . La publicidad es grande y llamativa y "te explota en la
+                  </a>. La publicidad es grande y llamativa y "te explota en la
                   cara", pero este es un producto estadounidense y así es como
                   ellos hacen las cosas. Bien, simplemente debes escribir tu
                   nombre y dirección de correo junto al video para empezar de
@@ -560,11 +542,9 @@ function App() {
                 <h3>ACTUALIZACIÓN</h3>
                 <p>
                   Acabamos de recibir la noticia de que ya casi todos los
-                  lugares para los residentes de América Latina están ocupados.
-                  <a href={LINK} target="_blank">
+                  lugares para los residentes de América Latina están ocupados. <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>
-                  puede aceptar solo una cantidad limitada de usuarios para así
+                  </a> puede aceptar solo una cantidad limitada de usuarios para así
                   mantener los altos niveles de ganancias por usuario. En este
                   momento aún quedan 37 espacios disponibles, así que date prisa
                   y regístrate para que asegures tu lugar.
