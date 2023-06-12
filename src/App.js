@@ -538,6 +538,10 @@ function App() {
           ) : (
             ""
           )}
+          <div className="cooment-section">
+            <p># comentarios recientes</p>
+            <p>Añadir un comentario</p>
+          </div>
           {comments.map((item, index) => (
             <Comment
               key={index}

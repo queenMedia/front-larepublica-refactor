@@ -102,3 +102,25 @@
   background: rgb(255, 255, 255);
   border-radius: 2px;
 }
+.cooment-section {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.cooment-section p:nth-child(1) {
+  font-family: Tahoma;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 18px;
+  color: rgb(59, 89, 152);
+}
+.cooment-section p:nth-child(2) {
+  font-family: Tahoma;
+  font-size: 14px;
+  margin: 0px;
+  line-height: 18px;
+  color: rgb(59, 89, 152);
+  font-weight: bold;
+}
