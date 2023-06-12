@@ -1,5 +1,4 @@
 .container {
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,8 +20,6 @@
   min-width: 20px;
   height: 20px;
   margin-top: 7px;
-  /* min-height: 20px;
-  object-fit: contain; */
 }
 .topHeader {
   background-color: red;
@@ -52,14 +49,11 @@
   margin: 100px auto 0px;
   justify-content: center;
   gap: 0px 15px;
-  /* background-color: pink; */
 }
 .content {
-  /* background-color: green; */
   width: 70%;
 }
 .sidebar {
-  /* background-color: yellow; */
   margin-top: 20px;
   width: 30%;
 }
@@ -67,18 +61,30 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+.paragraph-italic {
+  font-style: italic;
+
+}
+.title-2 {
+  margin-bottom: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.title-3 {
+  margin: 0 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
 .content-text p {
-  color: #1f1f1f;
-  font-size: 16px;
-  line-height: 1.6;
+  color: rgb(52, 52, 52);;
+  font-size: 20px;
+  line-height: 30px;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-weight: 400;
-  font-family: Roboto, sans-serif;
+  font-weight: 100;
 }
 .progressBar {
   width: 100%;
@@ -125,12 +131,6 @@
   color: rgb(59, 89, 152);
   font-weight: bold;
 }
-a {
-  color: #0198bd;
-  text-decoration: underline;
-  font-size: larger;
-  font-weight: 600;
-}
 
 @media only screen and (max-width: 400px) {
   .sidebar {
@@ -161,7 +161,5 @@ a {
   }
 }
 
-/* Desktops and laptops  */
 @media only screen and (min-width: 1224px) {
-  /* Styles */
 }
