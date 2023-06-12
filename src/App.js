@@ -12,6 +12,7 @@ import MainFooter from "./sections/mainFooter/mainFooter";
 import StickyFooter from "./sections/stickyFooter/stickyFooter";
 import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./sections/popup/popup.js";
+import MiniModal from "./components/miniModal/miniModal";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -562,6 +563,7 @@ function App() {
       <Popup />
       <StickyFooter />
       <MainFooter />
+      <MiniModal />
     </div>
   );
 }
