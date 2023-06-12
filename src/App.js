@@ -40,7 +40,7 @@ function App() {
           <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg " />
           <img className="iconSearch" src={IconSearch} />
         </div>
-        <div className="pregressBar">
+        <div className="progressBar">
           <div className={progressBarFill(scrollProgress)}></div>
         </div>
         <div className="bottomHeader">
