@@ -121,9 +121,16 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img2.jpg"
             }
             txt={
-              "El tiempo del programa se agotó antes de que pudiera explicar todo con lujo de detalles, así que conseguimos una entrevista exclusiva con el mismísimo Martin Vizcarra para aprender más sobre esta oportunidad que está generando controversias."
+              ""
             }
           />
+          <div className="content-text">
+            <p>
+              El tiempo del programa se agotó antes de que pudiera explicar todo con lujo de detalles, 
+              así que conseguimos una entrevista exclusiva con el mismísimo Martin Vizcarra para aprender 
+              más sobre esta oportunidad que está generando controversias.
+            </p>
+          </div>
           <LinkButton />
           <div className="content-text">
             <h3 className="title-2">EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
