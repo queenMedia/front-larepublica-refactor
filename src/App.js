@@ -9,6 +9,7 @@ import SideBar from "./sections/sideBar/sideBar";
 import IconSearch from "./assets/images/search-elcomercio.svg";
 import { css } from "@emotion/css";
 import MainFooter from "./sections/mainFooter/mainFooter";
+import StickyFooter from "./sections/stickyFooter/stickyFooter";
 import { Comment, comments } from "./sections/comments/comments.js";
 
 function App() {
@@ -557,7 +558,7 @@ function App() {
           <SideBar />
         </div>
       </body>
-
+      <StickyFooter />
       <MainFooter />
     </div>
   );
