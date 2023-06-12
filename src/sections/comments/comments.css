@@ -2,12 +2,10 @@
   display: flex;
   gap: 20px;
 }
-
 .testimonial-description {
   flex-grow: 1;
   margin-top: 5px;
 }
-
 .testimonial-container img {
   height: 70px;
   width: 75px;
@@ -15,7 +13,7 @@
 }
 .testimonial-name {
   font-style: normal;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   font-family: Tahoma;
   color: rgb(59, 89, 152);
   margin: 0px 0px 5px;
@@ -25,7 +23,7 @@
 .testimonial-comment {
   margin-top: 5px;
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   font-weight: 400;
   font-family: Tahoma;
   color: rgb(26, 26, 26);
@@ -37,7 +35,7 @@
 }
 .testimonial-txt p:nth-child(1) {
   font-style: normal;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   font-weight: 400;
   font-family: Tahoma;
   color: rgb(26, 26, 26);
@@ -45,7 +43,7 @@
 }
 .testimonial-txt p:nth-child(2) {
   font-style: normal;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-family: Tahoma;
   color: rgb(59, 89, 152);
@@ -54,7 +52,7 @@
   padding-left: 40px;
 }
 .testimonial-txt p:nth-child(3) {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   line-height: 15px;
   font-style: italic;
   color: rgb(128, 128, 128);
