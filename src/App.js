@@ -9,6 +9,7 @@ import SideBar from "./sections/sideBar/sideBar";
 import IconSearch from "./assets/images/search-elcomercio.svg";
 import { css } from "@emotion/css";
 import MainFooter from "./sections/mainFooter/mainFooter";
+import { Testimonial, comments } from "./sections/testimonial/testimonial";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -537,11 +538,22 @@ function App() {
           ) : (
             ""
           )}
+          {comments.map((item, index) => (
+            <Testimonial
+              key={index}
+              image={item.image}
+              name={item.name}
+              description={item.description}
+              number={item.number}
+              time={item.time}
+            />
+          ))}
         </div>
         <div className="sidebar">
           <SideBar />
         </div>
       </body>
+
       <MainFooter />
     </div>
   );
