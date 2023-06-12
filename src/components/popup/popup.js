@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { handleRoute } from "../../config";
+import iconClose from '../../assets/images/icons/icon-close.svg';
 import "./popup.css";
 
 const Popup = () => {
@@ -8,7 +9,7 @@ const Popup = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setShowModal(true);
-    }, 50000);
+    }, 5);
 
     return () => {
       clearInterval(interval);
@@ -24,16 +25,14 @@ const Popup = () => {
       {showModal && (
         <div className="popup">
           <div className="popup-content">
-            <div className="popup-header">
-              <div className="popup-txt">
-                <p>¡No te lo pierdas!</p>
-                <p>Esta es la ÚLTIMA oportunidad de ingresar al</p>
-                <p>BITCOIN CODE</p>
-              </div>
-              <div className="popup-close" onClick={closeModal}>
-                <span>X</span>
-              </div>
-            </div>
+            <p className="paragraph">
+              ¡No te lo pierdas!<br/>
+              Esta es la ÚLTIMA oportunidad de ingresar al<br/>
+              <span className="offer">BITCOIN CODE</span>
+            </p>
+            <button type="button" className="close-modal">
+              <img src={iconClose} alt="close" />
+            </button>
             <div className="popup-body" onClick={handleRoute}>
               <button>Empezar Ahora</button>
             </div>
