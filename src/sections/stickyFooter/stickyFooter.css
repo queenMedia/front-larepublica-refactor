@@ -1,0 +1,21 @@
+.stickyFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0%;
+  z-index: 99;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  height: 80px;
+}
+.stickyFooter button {
+  height: 50px;
+  width: 445px;
+  background: #eb6769;
+  color: white;
+  text-transform: uppercase;
+  font-family: Georgia;
+  font-size: 20px;
+  border: none;
+}
