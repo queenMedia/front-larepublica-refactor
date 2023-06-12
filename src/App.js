@@ -13,6 +13,7 @@ import StickyFooter from "./sections/stickyFooter/stickyFooter";
 import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
+import { LINK, handleRoute } from "./config";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -26,9 +27,10 @@ function App() {
   window.addEventListener("scroll", (event) => {
     setscrollProgress(window.scrollY / 100 - 20);
   });
+
   return (
     <div className="container">
-      <header className="headerContainer">
+      <header className="headerContainer" onClick={handleRoute}>
         <div className="topHeader">
           <div type="button" className="css-10nqdzz">
             <span className="css-1qt2np7"></span>
