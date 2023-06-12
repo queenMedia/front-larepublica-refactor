@@ -199,7 +199,7 @@ export const Comment = (props) => {
   return (
     <>
       <div className="testimonial-container">
-        <img src={props.image} />
+        <img src={props.image} alt="cool" />
         <div className="testimonial-description">
           <p className="testimonial-name">{props.name}</p>
           <p className="testimonial-comment">{props.description}</p>
