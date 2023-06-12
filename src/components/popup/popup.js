@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { handleRoute } from "../../config";
 import "./popup.css";
 
 const Popup = () => {
@@ -33,7 +34,7 @@ const Popup = () => {
                 <span>X</span>
               </div>
             </div>
-            <div className="popup-body">
+            <div className="popup-body" onClick={handleRoute}>
               <button>Empezar Ahora</button>
             </div>
           </div>

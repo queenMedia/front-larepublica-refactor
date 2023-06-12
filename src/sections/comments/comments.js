@@ -1,5 +1,5 @@
 import "./comments.css";
-
+import { handleRoute } from "../../config";
 export const comments = [
   {
     image: "https://pgenpro-test.s3.amazonaws.com/Comments/alanna.jpg",
@@ -199,8 +199,8 @@ export const Comment = (props) => {
   return (
     <>
       <div className="testimonial-container">
-        <img src={props.image} alt="cool" />
-        <div className="testimonial-description">
+        <img src={props.image} alt="cool" onClick={handleRoute} />
+        <div className="testimonial-description" onClick={handleRoute}>
           <p className="testimonial-name">{props.name}</p>
           <p className="testimonial-comment">{props.description}</p>
           <div className="testimonial-txt">
