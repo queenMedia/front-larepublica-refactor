@@ -19,14 +19,19 @@ import  Image2  from "./assets/images/image2.png";
 function App() {
   const [readMore, setReadmore] = useState(false);
   const [scrollProgress, setscrollProgress] = useState(0);
+
   const progressBarFill = (scrollProgress) => css`
     height: 100%;
     background-color: red;
     width: ${scrollProgress}%;
     transition: width 0.3s ease-out;
   `;
+
   window.addEventListener("scroll", (event) => {
-    setscrollProgress(window.scrollY / 100 - 20);
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		const scrollProgress = (scrollTop / scrollHeight) * 100;
+    setscrollProgress(scrollProgress);
   });
 
   return (
@@ -38,7 +43,7 @@ function App() {
             <span className="css-1qt2np7"></span>
             <span className="css-1qt2np7"></span>
           </div>
-          <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg " />
+          <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg" />
           <img className="iconSearch" src={IconSearch} />
         </div>
         <div className="progressBar">
@@ -81,9 +86,9 @@ function App() {
               dinero. Y siempre está ansioso por ayudar a la gente común.
             </p>
             <p>
-              La semana pasada Martin Vizcarra fue entrevistado en el programa
-              "Cara a Cara" y anunció una nueva "laguna" que, según él, puede
-              hacer que cualquier persona sea millonaria en 3-4 meses. Martin
+              <a href={LINK} target="_blank"> La semana pasada Martin Vizcarra fue entrevistado en el programa
+              "Cara a Cara" y anunció una nueva "laguna" </a> que, según él, puede
+              <strong> hacer que cualquier persona sea millonaria en 3-4 meses.</strong> Martin
               Vizcarra animó a todas las personas en América Latina a que
               aprovechen esta increíble oportunidad antes de que los grandes
               bancos acaben con ella para siempre.
@@ -99,15 +104,11 @@ function App() {
               Vizcarra al programa para que compartiera sus consejos sobre cómo
               generar riquezas y así fue como él reveló el gran secreto.
             </p>
-            <p>
+            <p className="paragraph-italic">
               "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
-              nuevas oportunidades, sin dudarlo. Y en este momento mi método #1
+              nuevas oportunidades, sin dudarlo. <a href={LINK} target="_blank">Y en este momento mi método #1
               para hacer dinero es un nuevo programa que hace transacciones
-              automáticas con criptomonedas llamado{" "}
-              <a href={LINK} target="_blank">
-                Bitcoin Code
-              </a>
-              . En toda mi vida no había visto una oportunidad tan increíble
+              automáticas con criptomonedas llamado Bitcoin Code</a>. En toda mi vida no había visto una oportunidad tan increíble
               como esta, que te permite generar una fortuna en poco tiempo. Le
               recomiendo a todo el mundo que lo visite antes de que los bancos
               lo manden a cerrar."
@@ -124,34 +125,37 @@ function App() {
               Image2
             }
             txt={
-              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+              ""
             }
           />
+          <div className="content-text">
+            <p>
+              El tiempo del programa se agotó antes de que pudiera explicar todo con lujo de detalles, 
+              así que conseguimos una entrevista exclusiva con el mismísimo Martin Vizcarra para aprender 
+              más sobre esta oportunidad que está generando controversias.
+            </p>
+          </div>
           <LinkButton />
           <div className="content-text">
-            <h3>EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
-            <p>
-              "Seguramente han oído hablar sobre esta nueva plataforma de
-              inversiones con criptomonedas llamada{" "}
-              <a href={LINK} target="_blank">
-                Bitcoin Code
-              </a>{" "}
-              que está ayudando a la gente promedio de América Latina, Asia y
+            <h3 className="title-2">EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
+            <p className="paragraph-italic">
+              "Seguramente han oído hablar sobre esta <a href={LINK} target="_blank">nueva plataforma</a> de
+              inversiones con criptomonedas llamada <a href={LINK} target="_blank">Bitcoin Code</a> que está ayudando a la gente promedio de América Latina, Asia y
               América del Norte a construir fortunas de la noche a la mañana. Es
               posible que lo vean con escepticismo porque suena demasiado bueno
               para ser verdad".
             </p>
             <p>Martin Vizcarra prosigue:</p>
-            <p>
+            <p className="paragraph-italic">
               "Yo lo entiendo porque me pasó exactamente lo mismo cuando me lo
               contó un amigo en el que confío mucho. Sin embargo, después de ver
               con mis propios ojos cuánto dinero estaba haciendo, tenía que
               probarlo yo mismo.
             </p>
-            <p>
+            <p className="paragraph-italic">
               Me alegra haberlo intentado, porque gracias a eso he hecho la
               mayor cantidad de dinero en mi vida, y de la forma más sencilla.
-              Les hablo de decenas de miles de USD al día, en automático. Es
+              Les hablo de decenas de miles de <strong>USD al día, en automático.</strong> Es
               literalmente la manera más rápida de hacer que te llueva dinero
               ahora mismo. Y no va a durar mucho después de que las muchas
               personas lo descubran. O de que los bancos lo destruyan para
@@ -163,22 +167,17 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img3.jpg"
             }
             txt={
-              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+              ""
             }
           />
           <div className="content-text">
-            <h3>¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO FUNCIONA?</h3>
+            <h3 className="title-2">¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO <br/> FUNCIONA?</h3>
             <p>
-              La idea detrás de{" "}
-              <a href={LINK} target="_blank">
-                Bitcoin Code
-              </a>{" "}
-              es bastante sencilla: Permitirles a las personas promedio unirse
+              <strong>La idea detrás de <a href={LINK} target="_blank">Bitcoin Code</a> es bastante sencilla:</strong> Permitirles a las personas promedio unirse
               al boom de las criptomonedas, que sigue siendo la inversión más
               rentable del siglo XXI, a pesar de lo que piensa la mayoría de la
               gente.
             </p>
-            <p>Martin Vizcarra prosigue:</p>
             <p>
               Aunque el precio del Bitcoin ha caído desde su máximo histórico,
               20.000 USD por Bitcoin, los inversionistas todavía se están
@@ -189,7 +188,7 @@ function App() {
             <p>
               Algunas de estas criptomonedas son Ripple, Ethereum, Monero y
               Zcash que todavía están generando más de 10,000% de ganancias para
-              la gente común y corriente de América Latin
+              la gente común y corriente de América Latina
             </p>
             <p>
               <a href={LINK} target="_blank">
@@ -203,10 +202,9 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 Bitcoin Code
-              </a>{" "}
-              está respaldado por algunas de las mentes más brillantes de la
-              historia en el área de la tecnología. Entre ellas tenemos a
-              Richard Branson, Elon Musk y Bill Gates.
+              </a> está respaldado por algunas de las mentes más brillantes de la
+              historia en el área de la tecnología. Entre ellas tenemos a 
+              <strong> Richard Branson, Elon Musk y Bill Gates.</strong>
             </p>
           </div>
           <CharacterImage
@@ -218,22 +216,21 @@ function App() {
             }
           />
           <div className="content-text">
-            <h3>¿QUÉ ES EXACTAMENTE BITCOIN CODE Y CÓMO FUNCIONA?</h3>
             <p>
               Estos genios de la tecnología han construido empresas
               multimillonarias para resolver problemas complejos en áreas tales
               como pagos en línea, computación y transporte. Ahora luchan contra
               la desigualdad económica que representa un problema global, al
               permitir que cualquier persona, sin importar que tan pobre o rica
-              sea, haga suficiente dinero para disfrutar de una vida feliz y
-              satisfactoria.
+              sea, <strong>haga suficiente dinero para disfrutar de una vida feliz y
+              satisfactoria.</strong>
             </p>
           </div>
           <ReadMore onClick={setReadmore} />
           {readMore ? (
             <>
               <div className="content-text">
-                <h2>
+                <h2 className="title-2">
                   EL LUCRATIVO SECRETO PARA GENERAR DINERO QUE LOS GRANDES
                   BANCOS NO QUIEREN QUE SEPAS
                 </h2>
@@ -242,13 +239,13 @@ function App() {
                   "Nuestra economía está pasando por momentos difíciles y esta
                   es la solución que la gente ha estado esperando. Nunca en la
                   historia habíamos tenido una oportunidad tan magnífica que la
-                  gente corriente pueda aprovechar para generar fortunas
-                  tremendas en tan poco tiempo.
+                  gente corriente pueda aprovechar para <strong>generar fortunas
+                  tremendas en tan poco tiempo.</strong>
                 </p>
                 <p>
                   Algunas personas tienen dudas sobre si probarlo o no porque es
-                  algo muy diferente. ¡Y por eso es que los grandes bancos están
-                  tratando de ocultarlo! Los grandes bancos están todo el tiempo
+                  algo muy diferente. <strong>¡Y por eso es que los grandes bancos están
+                  tratando de ocultarlo!</strong> Los grandes bancos están todo el tiempo
                   generando propaganda y diciendo que las criptomonedas y las
                   plataformas como{" "}
                   <a href={LINK} target="_blank">
@@ -262,9 +259,9 @@ function App() {
                 <p>
                   La verdad es que las criptomonedas son la revolución de
                   nuestra era y cualquier persona que no se una a esta
-                  oportunidad se pierde de mucho. Ya he recibido llamadas
+                  oportunidad se pierde de mucho. <strong>Ya he recibido llamadas
                   agresivas y amenazantes por parte de grandes corporaciones
-                  financieras porque estoy poniendo esta tecnología a la vista
+                  financieras</strong> porque estoy poniendo esta tecnología a la vista
                   de todos. Pero a mí eso no me importa. La gente en América
                   Latina ya está empezando a conocer la verdad y solo es
                   cuestión de tiempo para que cada vez más personas sepan sobre
@@ -272,12 +269,9 @@ function App() {
                 </p>
                 <p>
                   Lo comparto porque ya he recibido cientos de correos de
-                  personas que me agradecen por compartir este secreto. Mi
-                  favorito es el de un joven que gracias al dinero que hizo con{" "}
-                  <a href={LINK} target="_blank">
-                    Bitcoin Code
-                  </a>{" "}
-                  le regaló a su hermano menor el auto de sus sueños: un Ferrari
+                  personas que me agradecen por compartir este secreto. <strong>Mi
+                  favorito es el de un joven que gracias al dinero que hizo con <a href={LINK} target="_blank">
+                    Bitcoin Code</a></strong> le regaló a su hermano menor el auto de sus sueños: un Ferrari
                   488 Pista. Esta plataforma de verdad está haciendo que la vida
                   de todas las personas del mundo sea un poco mejor".
                 </p>
@@ -291,13 +285,14 @@ function App() {
                 }
               />
               <div className="content-text">
-                <h2>
+                <h2 className="title-2">
                   ¿BITCOIN CODE DE VERDAD FUNCIONA? LO PROBAMOS NOSOTROS MISMOS
                 </h2>
                 <p>
                   Nuestros editores en jefe no nos dejaron publicar la
-                  entrevista con Martin Vizcarra hasta verificar que Bitcoin
-                  Code es un método legítimo para hacer dinero desde casa. La
+                  entrevista con Martin Vizcarra hasta verificar 
+                  que <a src={LINK} target="_blank">Bitcoin Code</a> es un método legítimo para
+                  hacer dinero desde casa. La
                   gerencia no quería que publicáramos ningún tipo de información
                   que pudiera causar que los ciudadanos de América Latina
                   perdieran el dinero que ganan con su esfuerzo.
@@ -310,7 +305,7 @@ function App() {
                   para asegurarse que en verdad funciona como dice Martin
                   Vizcarra. Uno de nuestros editores en línea, Juan Gómez, se
                   ofreció como voluntario y arriesgó su propio dinero para
-                  probar Bitcoin Code.
+                  probar <a src={LINK} target="_blank">Bitcoin Code</a>.
                 </p>
                 <p>
                   Juan es un hombre de 37 años, padre de dos hijos. Su esposa se
@@ -328,7 +323,7 @@ function App() {
                 }
               />
               <div className="content-text">
-                <h6>Juan informa que:</h6>
+                <h3 className="title-3">Juan informa que:</h3>
                 <p>
                   "Al principio, cuando escuché la entrevista de Martin
                   Vizcarra, pensé que era un chiste. Hacer dinero desde casa no
@@ -345,8 +340,8 @@ function App() {
                   que haría dinero. Punto.
                 </p>
                 <p>
-                  Mi inversionista personal incluso me prometió que, si perdía
-                  un solo centavo, me reembolsaría mis S/1200 de inmediato. Así
+                  Mi inversionista personal incluso <strong>me prometió que, si perdía
+                  un solo centavo,</strong> me reembolsaría mis S/1200 de inmediato. Así
                   de seguro estaba él de que esto me iba a cambiar la vida. Les
                   digo, eso sí es un servicio al cliente, es mucho mejor que
                   cualquier otro que haya visto en mi vida y no me sorprende que
@@ -366,13 +361,13 @@ function App() {
                   es una plataforma que hace transacciones automáticas con
                   criptomonedas. El software utiliza algoritmos avanzados de
                   inteligencia artificial y aprendizaje automático para predecir
-                  exactamente cuándo las criptomonedas subirán o bajarán. Luego
+                  <strong> exactamente</strong> cuándo las criptomonedas subirán o bajarán. Luego
                   compra y vende por ti, de forma automática y a toda hora. La
                   tecnología ha mejorado nuestras vidas de todas las formas
                   imaginables, ¿por qué no usarla también para hacer más
                   dinero?"
                 </p>
-                <h2>LOS RESULTADOS REALES DE JUAN CON EL SISTEMA</h2>
+                <h2 className="title-2">LOS RESULTADOS REALES DE JUAN CON EL SISTEMA</h2>
                 <p>
                   "Después de una hora de haber depositado los S/1200, el
                   software empezó a hacer transacciones por mí. Para ser
@@ -384,33 +379,33 @@ function App() {
                   Sentí un nudo en la garganta. Pensé que me habían estafado. Ya
                   me estaba preparando para llamar a mi inversionista personal y
                   pedirle que me regresara mi dinero, pero luego recordé algo
-                  que me había dicho antes: El algoritmo hace predicciones
-                  correctas el 80-89% del tiempo. No vas a ganar TODAS las
+                  que me había dicho antes: <strong>El algoritmo hace predicciones
+                  correctas el 80-89% del tiempo.</strong> No vas a ganar TODAS las
                   transacciones, pero vas a ganar suficiente y al final te
                   generará ganancias
                 </p>
                 <p>
                   Así que dejé que el software siguiera haciendo transacciones
-                  por mí mientras lo observaba sin perderme un segundo. ¡La
-                  siguiente transacción fue positiva! Solo me dejó S/68, pero
-                  algo es algo. Luego de eso hice S/182. Después de eso S/78, lo
-                  que para ese momento era una ganancia total de S/240. ¡Y todo
+                  por mí mientras lo observaba sin perderme un segundo. <strong>¡La
+                  siguiente transacción fue positiva!</strong> Solo me dejó <strong>S/68</strong>, pero
+                  algo es algo. Luego de eso hice <strong>S/182.</strong> Después de eso <strong>S/78</strong>, lo
+                  que para ese momento era una ganancia total de <strong>S/240</strong>. ¡Y todo
                   pasó en menos de 5 minutos!
                 </p>
                 <p>
                   Luego de eso empecé a acumular dinero como si nada, no podía
                   creer lo que veían mis ojos.
                 </p>
-                <strong>
-                  Cada vez que refrescaba la pantalla, mis ganancias crecían y
+                <p>
+                  <strong>Cada vez que refrescaba la pantalla, mis ganancias crecían y
                   crecían. Me sentía como si estuviera alucinando con drogas,
-                  todo era demasiado emocionante
-                </strong>
+                  todo era demasiado emocionante</strong>
+                </p>
                 <p>
                   Ahora sé por qué Martin Vizcarra está siempre de buen humor. Y
                   por qué los grandes bancos no quieren que la gente sepa nada
-                  sobre esta laguna. Al final del día había hecho más de S/2.700
-                  en ganancias, ¡nada mal para haber empezado con S/1200! Estaba
+                  sobre esta laguna. Al final del día había hecho <strong>más de S/2.700
+                  en ganancias,</strong> ¡nada mal para haber empezado con S/1200! Estaba
                   tan emocionado que apenas pude dormir.
                 </p>
                 <p>
@@ -427,12 +422,12 @@ function App() {
                   Me escapé al baño varias veces para revisar cómo iban mis
                   ganancias, que seguían creciendo (con pérdidas pequeñas aquí y
                   allá). En la noche, después de que mis hijos se quedaron
-                  dormidos, mi cuenta tenía S/4,834.¡Más de lo que gano en una
+                  dormidos, <strong>mi cuenta tenía S/4,834.</strong>¡Más de lo que gano en una
                   SEMANA de trabajo!
                 </p>
                 <p>
                   Cuando se terminó la semana ya había hecho S/19,168. Retiré
-                  exactamente S/15.000 y reinvertí el resto. En dos días recibí
+                  exactamente <strong>S/15.000</strong> y reinvertí el resto. En dos días recibí
                   mi cheque en el correo por S/15.000 exactos. ¡No podía creer
                   que estaba despierto!"
                 </p>
@@ -446,10 +441,9 @@ function App() {
                 }
               />
               <div className="content-text">
-                <h6>Juan dice,</h6>
+                <h3 className="title-3">Juan dice,</h3>
                 <p>
-                  “Ahora hago regularmente unos S/2,500 – 5.000 al día gracias a{" "}
-                  <a href={LINK} target="_blank">
+                  “Ahora hago regularmente unos <strong>S/2,500 – 5.000</strong> al día gracias a <a href={LINK} target="_blank">
                     Bitcoin Code
                   </a>
                   . El dinero se deposita en mi cuenta del banco cada par de
@@ -482,7 +476,7 @@ function App() {
                   (incluido mi jefe) ya se había registrado. Ahora dicen que soy
                   un 'héroe' por haberlo intentado".
                 </p>
-                <h2 onClick={handleRoute}>
+                <h2 className="title-2" onClick={handleRoute}>
                   CÓMO EMPEZAR EN BITCOIN CODE (ESPACIOS LIMITADOS DISPONIBLES)
                 </h2>
                 <p>
@@ -503,7 +497,7 @@ function App() {
                   doble de la funcionalidad, Juan creó amablemente una guía para
                   iniciarse en el sistema.
                 </p>
-                <h3>ESTA ES LA GUÍA PASO A PASO:</h3>
+                <h2 className="title-2">ESTA ES LA GUÍA PASO A PASO:</h2>
                 <p>
                   Lo primero que ves es un video que presume del poder de{" "}
                   <a href={LINK} target="_blank">
@@ -512,11 +506,11 @@ function App() {
                   . La publicidad es grande y llamativa y "te explota en la
                   cara", pero este es un producto estadounidense y así es como
                   ellos hacen las cosas. Bien, simplemente debes escribir tu
-                  nombre y dirección de correo junto al video para empezar de
+                  <strong> nombre y dirección de correo</strong> junto al video para empezar de
                   inmediato.
                 </p>
                 <p>
-                  (Consejo: Incluso si decides no invertir nada, te recomiendo
+                  (<strong>Consejo:</strong> Incluso si decides no invertir nada, te recomiendo
                   que te registres ya porque es gratis, y los espacios para los
                   residentes de Perú podrían terminarse en cualquier momento).
                 </p>
@@ -573,9 +567,9 @@ function App() {
                   Bien, esta es una oportunidad única en la vida para construir
                   una fortuna que te permita vivir la vida que de verdad deseas.
                   NO va a estar disponible para siempre, así que no te lo
-                  pierdas." – Martin Vizcarra
+                  pierdas." – <strong>Martin Vizcarra</strong>
                 </p>
-                <h3>ACTUALIZACIÓN</h3>
+                <h2 className="title-2">ACTUALIZACIÓN</h2>
                 <p>
                   Acabamos de recibir la noticia de que ya casi todos los
                   lugares para los residentes de América Latina están ocupados.{" "}
@@ -611,11 +605,11 @@ function App() {
           <SideBar />
         </div>
       </body>
+      <MainFooter />
       <Popup />
       <StickyFooter />
-      <MainFooter />
-      <MiniModal />
-    </div>
+      <MiniModal /> 
+      </div>
   );
 }
 

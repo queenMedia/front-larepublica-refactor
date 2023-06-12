@@ -7,7 +7,6 @@ const SideBar = () => {
   return (
     <>
       <SideTitle txt={"RESULTADOS DE NUESTROS LECTORES"} />
-      {/* number 1 */}
       <SideTitle txt={"GANANCIAS: S/26,952"} />
       <SideTestimonial
         txt={
@@ -18,7 +17,6 @@ const SideBar = () => {
         name={"Sofia Hernández Callao"}
         src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/victoriaPE.png"}
       />
-      {/* number 2 */}
       <SideTitle txt={"GANANCIAS: S/79,620"} />
       <SideTestimonial
         txt={
@@ -27,7 +25,6 @@ const SideBar = () => {
         name={"Jimena Alba Chiclayo"}
         src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/jimenaPE.png"}
       />
-      {/* number 3 */}
       <SideTitle txt={"GANANCIAS: S/79,620"} />
       <SideTestimonial
          txt={
@@ -38,7 +35,6 @@ const SideBar = () => {
         name={"Alejandro Chávez Piura"}
         src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/alejandroPE.png"}
       />
-      {/* number 4 */}
       <SideTitle txt={"GANANCIAS: S/33,281"} />
       <SideTestimonial
         txt={
@@ -47,7 +43,6 @@ const SideBar = () => {
         name={"Victoria Pérez Huancayo"}
         src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/sofiaPE.png"}
       />
-      {/* number 5 */}
       <SideTitle txt={"GANANCIAS: S/44,080"} />
       <SideTestimonial
         txt={
@@ -56,7 +51,6 @@ const SideBar = () => {
         name={"Alejandro Flores & Carlo Lima Arequipa"}
         src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/alecarlopng.png"}
       />
-      {/* number 6 */}
       <SideTitle txt={"GANANCIAS: S/210,529"} />
       <SideTestimonial
           txt={
@@ -67,7 +61,6 @@ const SideBar = () => {
         name={"Mateo Guerra Trujillo"}
         src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/mateoPE.png"}
       />
-      {/* number 7 */}
       <SideTitle txt={"GANANCIAS: S/150,300"} />
       <SideTestimonial
      txt={
