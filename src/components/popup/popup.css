@@ -13,19 +13,47 @@
 .popup-close {
   cursor: pointer;
 }
+.offer {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  color:rgb(255, 255, 255);
+}
+.paragraph {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  color:rgb(255, 255, 255);
+}
+.close-modal {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: relative;
+  top: -55%;
+  right: -45%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+}
 .popup-content {
+  width: 570px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-image: url("./bitcoin-code.png");
-  background-repeat: no-repeat;
+  background: url("./bitcoin-code.png") no-repeat center/cover;
   padding: 20px;
   border-radius: 5px;
   border: 2px solid white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  width: 550px;
-  height: 350px;
+
 }
 .popup-header {
   display: flex;
@@ -76,8 +104,14 @@
     transform: scale(1);
   }
 }
+@media only screen and (max-width: 570px) {
+  .popup-content {
+    max-width: 80%;
+  }
+}
+
 @media only screen and (max-width: 400px) {
-  .popup {
-    display: none;
+  .paragraph {
+    font-size: 14px;
   }
 }
