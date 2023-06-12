@@ -9,7 +9,7 @@ const Popup = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setShowModal(true);
-    }, 5);
+    }, 50000);
 
     return () => {
       clearInterval(interval);
@@ -30,7 +30,7 @@ const Popup = () => {
               Esta es la ÚLTIMA oportunidad de ingresar al<br/>
               <span className="offer">BITCOIN CODE</span>
             </p>
-            <button type="button" className="close-modal">
+            <button onClick={()=>closeModal()} type="button" className="close-modal">
               <img src={iconClose} alt="close" />
             </button>
             <div className="popup-body" onClick={handleRoute}>
