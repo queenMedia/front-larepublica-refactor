@@ -55,3 +55,8 @@ footer {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+@media only screen and (max-width: 400px) {
+  footer {
+    display: none;
+  }
+}

@@ -61,7 +61,7 @@ function App() {
         <div className="content">
           <Title />
           <SubTitle />
-          <img src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg" />
+          <img className="fimage" src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg" />
           <CharacterImage
             src={
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img1.jpg"
