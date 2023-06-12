@@ -79,7 +79,7 @@ function App() {
             <p>
               <a href={LINK} target="_blank"> La semana pasada Martin Vizcarra fue entrevistado en el programa
               "Cara a Cara" y anunció una nueva "laguna" </a> que, según él, puede
-              <stong> hacer que cualquier persona sea millonaria en 3-4 meses.</stong> Martin
+              <strong> hacer que cualquier persona sea millonaria en 3-4 meses.</strong> Martin
               Vizcarra animó a todas las personas en América Latina a que
               aprovechen esta increíble oportunidad antes de que los grandes
               bancos acaben con ella para siempre.
@@ -116,7 +116,7 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img2.jpg"
             }
             txt={
-              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+              ""
             }
           />
           <LinkButton />
@@ -151,7 +151,7 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img3.jpg"
             }
             txt={
-              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+              ""
             }
           />
           <div className="content-text">
