@@ -11,6 +11,7 @@ import { css } from "@emotion/css";
 import MainFooter from "./sections/mainFooter/mainFooter";
 import StickyFooter from "./sections/stickyFooter/stickyFooter";
 import { Comment, comments } from "./sections/comments/comments.js";
+import Popup from "./sections/popup/popup.js";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -558,6 +559,7 @@ function App() {
           <SideBar />
         </div>
       </body>
+      <Popup />
       <StickyFooter />
       <MainFooter />
     </div>
