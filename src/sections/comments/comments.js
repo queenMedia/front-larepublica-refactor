@@ -22,7 +22,7 @@ export const comments = [
 export const Comment = (props) => {
   return (
     <>
-      <div className="testimonial-container" key={props.key}>
+      <div className="testimonial-container">
         <img src={props.image} />
         <div className="testimonial-description">
           <p className="testimonial-name">{props.name}</p>
