@@ -1,4 +1,4 @@
-import "./testimonial.css";
+import "./comments.css";
 
 export const comments = [
   {
@@ -19,7 +19,7 @@ export const comments = [
   },
 ];
 
-export const Testimonial = (props) => {
+export const Comment = (props) => {
   return (
     <>
       <div className="testimonial-container" key={props.key}>
