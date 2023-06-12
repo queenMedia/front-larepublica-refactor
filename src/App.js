@@ -99,11 +99,7 @@ function App() {
               "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
               nuevas oportunidades, sin dudarlo. Y en este momento mi método #1
               para hacer dinero es un nuevo programa que hace transacciones
-              automáticas con criptomonedas llamado
-              <a href={LINK} target="_blank">
-                Bitcoin Code
-              </a>
-              . En toda mi vida no había visto una oportunidad tan increíble
+              automáticas con criptomonedas llamado <a href={LINK} target="_blank">Bitcoin Code</a>. En toda mi vida no había visto una oportunidad tan increíble
               como esta, que te permite generar una fortuna en poco tiempo. Le
               recomiendo a todo el mundo que lo visite antes de que los bancos
               lo manden a cerrar."
@@ -128,11 +124,7 @@ function App() {
             <h3>EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
             <p>
               "Seguramente han oído hablar sobre esta nueva plataforma de
-              inversiones con criptomonedas llamada
-              <a href={LINK} target="_blank">
-                Bitcoin Code
-              </a>
-              que está ayudando a la gente promedio de América Latina, Asia y
+              inversiones con criptomonedas llamada <a href={LINK} target="_blank">Bitcoin Code</a> que está ayudando a la gente promedio de América Latina, Asia y
               América del Norte a construir fortunas de la noche a la mañana. Es
               posible que lo vean con escepticismo porque suena demasiado bueno
               para ser verdad".
@@ -165,11 +157,7 @@ function App() {
           <div className="content-text">
             <h3>¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO FUNCIONA?</h3>
             <p>
-              La idea detrás de
-              <a href={LINK} target="_blank">
-                Bitcoin Code
-              </a>
-              es bastante sencilla: Permitirles a las personas promedio unirse
+              La idea detrás de <a href={LINK} target="_blank">Bitcoin Code</a> es bastante sencilla: Permitirles a las personas promedio unirse
               al boom de las criptomonedas, que sigue siendo la inversión más
               rentable del siglo XXI, a pesar de lo que piensa la mayoría de la
               gente.
@@ -190,8 +178,7 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 Bitcoin Code
-              </a>
-              te permite sacar provecho de todas estas criptomonedas, incluso en
+              </a> te permite sacar provecho de todas estas criptomonedas, incluso en
               un mercado bajista. Utiliza inteligencia artificial (AI) para
               gestionar ventas, y ventas cortas por ti, y que puedas hacer
               dinero a toda hora, incluso mientras duermes.
@@ -199,8 +186,7 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 Bitcoin Code
-              </a>
-              está respaldado por algunas de las mentes más brillantes de la
+              </a> está respaldado por algunas de las mentes más brillantes de la
               historia en el área de la tecnología. Entre ellas tenemos a
               Richard Branson, Elon Musk y Bill Gates.
             </p>

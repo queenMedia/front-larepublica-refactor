@@ -129,4 +129,9 @@ a {
   color: #0198bd;
   text-decoration: underline;
   font-size: larger;
+  font-weight: 600;
 }
+/* a::before,
+a::after {
+  content: "  "; 
+} */
