@@ -131,7 +131,3 @@ a {
   font-size: larger;
   font-weight: 600;
 }
-/* a::before,
-a::after {
-  content: "  "; 
-} */
