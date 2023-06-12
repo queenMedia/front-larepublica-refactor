@@ -99,11 +99,15 @@ function App() {
               "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
               nuevas oportunidades, sin dudarlo. Y en este momento mi método #1
               para hacer dinero es un nuevo programa que hace transacciones
-              automáticas con criptomonedas llamado Bitcoin Code. En toda mi
-              vida no había visto una oportunidad tan increíble como esta, que
-              te permite generar una fortuna en poco tiempo. Le recomiendo a
-              todo el mundo que lo visite antes de que los bancos lo manden a
-              cerrar."
+              automáticas con criptomonedas llamado{" "}
+              <a href={LINK} target="_blank">
+                {" "}
+                Bitcoin Code
+              </a>
+              . En toda mi vida no había visto una oportunidad tan increíble
+              como esta, que te permite generar una fortuna en poco tiempo. Le
+              recomiendo a todo el mundo que lo visite antes de que los bancos
+              lo manden a cerrar."
             </p>
             <p>
               Enrique Chávez no lo podía creer cuando Martin Vizcarra sacó su
@@ -125,11 +129,15 @@ function App() {
             <h3>EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
             <p>
               "Seguramente han oído hablar sobre esta nueva plataforma de
-              inversiones con criptomonedas llamada Bitcoin Code que está
-              ayudando a la gente promedio de América Latina, Asia y América del
-              Norte a construir fortunas de la noche a la mañana. Es posible que
-              lo vean con escepticismo porque suena demasiado bueno para ser
-              verdad".
+              inversiones con criptomonedas llamada{" "}
+              <a href={LINK} target="_blank">
+                {" "}
+                Bitcoin Code
+              </a>{" "}
+              que está ayudando a la gente promedio de América Latina, Asia y
+              América del Norte a construir fortunas de la noche a la mañana. Es
+              posible que lo vean con escepticismo porque suena demasiado bueno
+              para ser verdad".
             </p>
             <p>Martin Vizcarra prosigue:</p>
             <p>
@@ -157,12 +165,17 @@ function App() {
             }
           />
           <div className="content-text">
-            <h3>¿QUÉ ES EXACTAMENTE BITCOIN CODE Y CÓMO FUNCIONA?</h3>
+            <h3>¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO FUNCIONA?</h3>
             <p>
-              La idea detrás de Bitcoin Code es bastante sencilla: Permitirles a
-              las personas promedio unirse al boom de las criptomonedas, que
-              sigue siendo la inversión más rentable del siglo XXI, a pesar de
-              lo que piensa la mayoría de la gente.
+              La idea detrás de{" "}
+              <a href={LINK} target="_blank">
+                {" "}
+                Bitcoin Code
+              </a>{" "}
+              es bastante sencilla: Permitirles a las personas promedio unirse
+              al boom de las criptomonedas, que sigue siendo la inversión más
+              rentable del siglo XXI, a pesar de lo que piensa la mayoría de la
+              gente.
             </p>
             <p>Martin Vizcarra prosigue:</p>
             <p>
@@ -178,15 +191,23 @@ function App() {
               la gente común y corriente de América Latin
             </p>
             <p>
-              Bitcoin Code te permite sacar provecho de todas estas
-              criptomonedas, incluso en un mercado bajista. Utiliza inteligencia
-              artificial (AI) para gestionar ventas, y ventas cortas por ti, y
-              que puedas hacer dinero a toda hora, incluso mientras duermes.
+              <a href={LINK} target="_blank">
+                {" "}
+                Bitcoin Code
+              </a>{" "}
+              te permite sacar provecho de todas estas criptomonedas, incluso en
+              un mercado bajista. Utiliza inteligencia artificial (AI) para
+              gestionar ventas, y ventas cortas por ti, y que puedas hacer
+              dinero a toda hora, incluso mientras duermes.
             </p>
             <p>
-              Bitcoin Code está respaldado por algunas de las mentes más
-              brillantes de la historia en el área de la tecnología. Entre ellas
-              tenemos a Richard Branson, Elon Musk y Bill Gates.
+              <a href={LINK} target="_blank">
+                {" "}
+                Bitcoin Code
+              </a>{" "}
+              está respaldado por algunas de las mentes más brillantes de la
+              historia en el área de la tecnología. Entre ellas tenemos a
+              Richard Branson, Elon Musk y Bill Gates.
             </p>
           </div>
           <CharacterImage
@@ -230,9 +251,14 @@ function App() {
                   algo muy diferente. ¡Y por eso es que los grandes bancos están
                   tratando de ocultarlo! Los grandes bancos están todo el tiempo
                   generando propaganda y diciendo que las criptomonedas y las
-                  plataformas como Bitcoin Code son un fraude. ¿Por qué? Temen
-                  que sus beneficios corporativos disminuyan una vez que sus
-                  clientes aprendan a generar riquezas masivas por su cuenta.
+                  plataformas como{" "}
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  son un fraude. ¿Por qué? Temen que sus beneficios corporativos
+                  disminuyan una vez que sus clientes aprendan a generar
+                  riquezas masivas por su cuenta.
                 </p>
 
                 <p>
@@ -250,10 +276,13 @@ function App() {
                   Lo comparto porque ya he recibido cientos de correos de
                   personas que me agradecen por compartir este secreto. Mi
                   favorito es el de un joven que gracias al dinero que hizo con
-                  Bitcoin Code le regaló a su hermano menor el auto de sus
-                  sueños: un Ferrari 488 Pista. Esta plataforma de verdad está
-                  haciendo que la vida de todas las personas del mundo sea un
-                  poco mejor".
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  le regaló a su hermano menor el auto de sus sueños: un Ferrari
+                  488 Pista. Esta plataforma de verdad está haciendo que la vida
+                  de todas las personas del mundo sea un poco mejor".
                 </p>
               </div>
               <CharacterImage
@@ -277,11 +306,15 @@ function App() {
                   perdieran el dinero que ganan con su esfuerzo.
                 </p>
                 <p>
-                  Así que nuestro equipo editorial probó Bitcoin Code para
-                  asegurarse que en verdad funciona como dice Martin Vizcarra.
-                  Uno de nuestros editores en línea, Juan Gómez, se ofreció como
-                  voluntario y arriesgó su propio dinero para probar Bitcoin
-                  Code.
+                  Así que nuestro equipo editorial probó{" "}
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  para asegurarse que en verdad funciona como dice Martin
+                  Vizcarra. Uno de nuestros editores en línea, Juan Gómez, se
+                  ofreció como voluntario y arriesgó su propio dinero para
+                  probar Bitcoin Code.
                 </p>
                 <p>
                   Juan es un hombre de 37 años, padre de dos hijos. Su esposa se
@@ -330,14 +363,19 @@ function App() {
                   la moneda que prefieras.
                 </p>
                 <p>
-                  El sistema de Bitcoin Code es una plataforma que hace
-                  transacciones automáticas con criptomonedas. El software
-                  utiliza algoritmos avanzados de inteligencia artificial y
-                  aprendizaje automático para predecir exactamente cuándo las
-                  criptomonedas subirán o bajarán. Luego compra y vende por ti,
-                  de forma automática y a toda hora. La tecnología ha mejorado
-                  nuestras vidas de todas las formas imaginables, ¿por qué no
-                  usarla también para hacer más dinero?"
+                  El sistema de{" "}
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  es una plataforma que hace transacciones automáticas con
+                  criptomonedas. El software utiliza algoritmos avanzados de
+                  inteligencia artificial y aprendizaje automático para predecir
+                  exactamente cuándo las criptomonedas subirán o bajarán. Luego
+                  compra y vende por ti, de forma automática y a toda hora. La
+                  tecnología ha mejorado nuestras vidas de todas las formas
+                  imaginables, ¿por qué no usarla también para hacer más
+                  dinero?"
                 </p>
                 <h2>LOS RESULTADOS REALES DE JUAN CON EL SISTEMA</h2>
                 <p>
@@ -384,7 +422,12 @@ function App() {
                   El día siguiente era martes y tenía que ir a trabajar otra
                   vez. Si les soy sincero (y no le digan esto a mi jefe), fue
                   difícil concentrarme en el trabajo mientras pensaba que el
-                  software de Bitcoin Code me estaba generando dinero.
+                  software de{" "}
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  me estaba generando dinero.
                 </p>
                 <p>
                   Me escapé al baño varias veces para revisar cómo iban mis
@@ -412,11 +455,15 @@ function App() {
                 <h6>Juan dice,</h6>
                 <p>
                   “Ahora hago regularmente unos S/2,500 – 5.000 al día gracias a
-                  Bitcoin Code. El dinero se deposita en mi cuenta del banco
-                  cada par de días. Con solo unos cuantos clics recibo mi dinero
-                  en las siguientes 24 a 48 horas. Cada vez que veo la
-                  transferencia en mi cuenta, tengo que pellizcarme para
-                  asegurarme de que no estoy soñando.
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>
+                  . El dinero se deposita en mi cuenta del banco cada par de
+                  días. Con solo unos cuantos clics recibo mi dinero en las
+                  siguientes 24 a 48 horas. Cada vez que veo la transferencia en
+                  mi cuenta, tengo que pellizcarme para asegurarme de que no
+                  estoy soñando.
                 </p>
                 <p>
                   Por suerte, me ENCANTA mi trabajo porque aquí puedo contar
@@ -429,9 +476,13 @@ function App() {
                 <p>
                   Nada de esto sería posible sin la generosidad del Sr. Martin
                   Vizcarra, quien compartió este secreto en la TV en vivo. Y me
-                  alegra haberme atrevido a probar Bitcoin Code yo mismo. Mi
-                  esposa está más feliz que nunca y la despensa de juguetes de
-                  mis hijos está hasta el tope
+                  alegra haberme atrevido a probar{" "}
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  yo mismo. Mi esposa está más feliz que nunca y la despensa de
+                  juguetes de mis hijos está hasta el tope
                 </p>
                 <p>
                   Mis compañeros de trabajo se lamentan porque no empezaron hace
@@ -439,7 +490,7 @@ function App() {
                   (incluido mi jefe) ya se había registrado. Ahora dicen que soy
                   un 'héroe' por haberlo intentado".
                 </p>
-                <h2>
+                <h2 onClick={handleRoute}>
                   CÓMO EMPEZAR EN BITCOIN CODE (ESPACIOS LIMITADOS DISPONIBLES)
                 </h2>
                 <p>
@@ -463,11 +514,15 @@ function App() {
                 <h3>ESTA ES LA GUÍA PASO A PASO:</h3>
                 <p>
                   Lo primero que ves es un video que presume del poder de
-                  Bitcoin Code. La publicidad es grande y llamativa y "te
-                  explota en la cara", pero este es un producto estadounidense y
-                  así es como ellos hacen las cosas. Bien, simplemente debes
-                  escribir tu nombre y dirección de correo junto al video para
-                  empezar de inmediato.
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>
+                  . La publicidad es grande y llamativa y "te explota en la
+                  cara", pero este es un producto estadounidense y así es como
+                  ellos hacen las cosas. Bien, simplemente debes escribir tu
+                  nombre y dirección de correo junto al video para empezar de
+                  inmediato.
                 </p>
                 <p>
                   (Consejo: Incluso si decides no invertir nada, te recomiendo
@@ -533,10 +588,14 @@ function App() {
                 <p>
                   Acabamos de recibir la noticia de que ya casi todos los
                   lugares para los residentes de América Latina están ocupados.
-                  Bitcoin Code puede aceptar solo una cantidad limitada de
-                  usuarios para así mantener los altos niveles de ganancias por
-                  usuario. En este momento aún quedan 37 espacios disponibles,
-                  así que date prisa y regístrate para que asegures tu lugar.
+                  <a href={LINK} target="_blank">
+                    {" "}
+                    Bitcoin Code
+                  </a>{" "}
+                  puede aceptar solo una cantidad limitada de usuarios para así
+                  mantener los altos niveles de ganancias por usuario. En este
+                  momento aún quedan 37 espacios disponibles, así que date prisa
+                  y regístrate para que asegures tu lugar.
                 </p>
               </div>
             </>
