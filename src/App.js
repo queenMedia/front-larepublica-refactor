@@ -18,14 +18,19 @@ import { LINK, handleRoute } from "./config";
 function App() {
   const [readMore, setReadmore] = useState(false);
   const [scrollProgress, setscrollProgress] = useState(0);
+
   const progressBarFill = (scrollProgress) => css`
     height: 100%;
     background-color: red;
     width: ${scrollProgress}%;
     transition: width 0.3s ease-out;
   `;
+
   window.addEventListener("scroll", (event) => {
-    setscrollProgress(window.scrollY / 100 - 20);
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		const scrollProgress = (scrollTop / scrollHeight) * 100;
+    setscrollProgress(scrollProgress);
   });
 
   return (
@@ -116,7 +121,7 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img2.jpg"
             }
             txt={
-              ""
+              "El tiempo del programa se agotó antes de que pudiera explicar todo con lujo de detalles, así que conseguimos una entrevista exclusiva con el mismísimo Martin Vizcarra para aprender más sobre esta oportunidad que está generando controversias."
             }
           />
           <LinkButton />
@@ -155,14 +160,13 @@ function App() {
             }
           />
           <div className="content-text">
-            <h3 className="title-2">¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO FUNCIONA?</h3>
+            <h3 className="title-2">¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO <br/> FUNCIONA?</h3>
             <p>
               <strong>La idea detrás de <a href={LINK} target="_blank">Bitcoin Code</a> es bastante sencilla:</strong> Permitirles a las personas promedio unirse
               al boom de las criptomonedas, que sigue siendo la inversión más
               rentable del siglo XXI, a pesar de lo que piensa la mayoría de la
               gente.
             </p>
-            <p>Martin Vizcarra prosigue:</p>
             <p>
               Aunque el precio del Bitcoin ha caído desde su máximo histórico,
               20.000 USD por Bitcoin, los inversionistas todavía se están
@@ -173,7 +177,7 @@ function App() {
             <p>
               Algunas de estas criptomonedas son Ripple, Ethereum, Monero y
               Zcash que todavía están generando más de 10,000% de ganancias para
-              la gente común y corriente de América Latin
+              la gente común y corriente de América Latina
             </p>
             <p>
               <a href={LINK} target="_blank">
@@ -573,10 +577,10 @@ function App() {
           <SideBar />
         </div>
       </body>
+      <MainFooter />
       <Popup />
       <StickyFooter />
-      <MainFooter />
-      <MiniModal />
+      <MiniModal /> 
       </div>
   );
 }
