@@ -9,7 +9,7 @@ import SideBar from "./sections/sideBar/sideBar";
 import IconSearch from "./assets/images/search-elcomercio.svg";
 import { css } from "@emotion/css";
 import MainFooter from "./sections/mainFooter/mainFooter";
-import { Testimonial, comments } from "./sections/testimonial/testimonial";
+import { Comment, comments } from "./sections/comments/comments.js";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -539,7 +539,7 @@ function App() {
             ""
           )}
           {comments.map((item, index) => (
-            <Testimonial
+            <Comment
               key={index}
               image={item.image}
               name={item.name}
