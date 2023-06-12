@@ -14,6 +14,7 @@ import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
 import { LINK, handleRoute } from "./config";
+import  Image2  from "./assets/images/image2.png";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -61,7 +62,10 @@ function App() {
         <div className="content">
           <Title />
           <SubTitle />
-          <img className="fimage" src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg" />
+          <img
+            className="fimage"
+            src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg"
+          />
           <CharacterImage
             src={
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img1.jpg"
@@ -99,7 +103,11 @@ function App() {
               "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
               nuevas oportunidades, sin dudarlo. Y en este momento mi método #1
               para hacer dinero es un nuevo programa que hace transacciones
-              automáticas con criptomonedas llamado <a href={LINK} target="_blank">Bitcoin Code</a>. En toda mi vida no había visto una oportunidad tan increíble
+              automáticas con criptomonedas llamado{" "}
+              <a href={LINK} target="_blank">
+                Bitcoin Code
+              </a>
+              . En toda mi vida no había visto una oportunidad tan increíble
               como esta, que te permite generar una fortuna en poco tiempo. Le
               recomiendo a todo el mundo que lo visite antes de que los bancos
               lo manden a cerrar."
@@ -113,7 +121,7 @@ function App() {
           <LinkButton />
           <CharacterImage
             src={
-              "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img2.jpg"
+              Image2
             }
             txt={
               "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
@@ -124,7 +132,11 @@ function App() {
             <h3>EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
             <p>
               "Seguramente han oído hablar sobre esta nueva plataforma de
-              inversiones con criptomonedas llamada <a href={LINK} target="_blank">Bitcoin Code</a> que está ayudando a la gente promedio de América Latina, Asia y
+              inversiones con criptomonedas llamada{" "}
+              <a href={LINK} target="_blank">
+                Bitcoin Code
+              </a>{" "}
+              que está ayudando a la gente promedio de América Latina, Asia y
               América del Norte a construir fortunas de la noche a la mañana. Es
               posible que lo vean con escepticismo porque suena demasiado bueno
               para ser verdad".
@@ -157,7 +169,11 @@ function App() {
           <div className="content-text">
             <h3>¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO FUNCIONA?</h3>
             <p>
-              La idea detrás de <a href={LINK} target="_blank">Bitcoin Code</a> es bastante sencilla: Permitirles a las personas promedio unirse
+              La idea detrás de{" "}
+              <a href={LINK} target="_blank">
+                Bitcoin Code
+              </a>{" "}
+              es bastante sencilla: Permitirles a las personas promedio unirse
               al boom de las criptomonedas, que sigue siendo la inversión más
               rentable del siglo XXI, a pesar de lo que piensa la mayoría de la
               gente.
@@ -178,7 +194,8 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 Bitcoin Code
-              </a> te permite sacar provecho de todas estas criptomonedas, incluso en
+              </a>{" "}
+              te permite sacar provecho de todas estas criptomonedas, incluso en
               un mercado bajista. Utiliza inteligencia artificial (AI) para
               gestionar ventas, y ventas cortas por ti, y que puedas hacer
               dinero a toda hora, incluso mientras duermes.
@@ -186,7 +203,8 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 Bitcoin Code
-              </a> está respaldado por algunas de las mentes más brillantes de la
+              </a>{" "}
+              está respaldado por algunas de las mentes más brillantes de la
               historia en el área de la tecnología. Entre ellas tenemos a
               Richard Branson, Elon Musk y Bill Gates.
             </p>
@@ -232,8 +250,11 @@ function App() {
                   algo muy diferente. ¡Y por eso es que los grandes bancos están
                   tratando de ocultarlo! Los grandes bancos están todo el tiempo
                   generando propaganda y diciendo que las criptomonedas y las
-                  plataformas como <a href={LINK} target="_blank">
-                    Bitcoin Code</a> son un fraude. ¿Por qué? Temen que sus beneficios corporativos
+                  plataformas como{" "}
+                  <a href={LINK} target="_blank">
+                    Bitcoin Code
+                  </a>{" "}
+                  son un fraude. ¿Por qué? Temen que sus beneficios corporativos
                   disminuyan una vez que sus clientes aprendan a generar
                   riquezas masivas por su cuenta.
                 </p>
@@ -252,8 +273,11 @@ function App() {
                 <p>
                   Lo comparto porque ya he recibido cientos de correos de
                   personas que me agradecen por compartir este secreto. Mi
-                  favorito es el de un joven que gracias al dinero que hizo con <a href={LINK} target="_blank">
-                    Bitcoin Code</a> le regaló a su hermano menor el auto de sus sueños: un Ferrari
+                  favorito es el de un joven que gracias al dinero que hizo con{" "}
+                  <a href={LINK} target="_blank">
+                    Bitcoin Code
+                  </a>{" "}
+                  le regaló a su hermano menor el auto de sus sueños: un Ferrari
                   488 Pista. Esta plataforma de verdad está haciendo que la vida
                   de todas las personas del mundo sea un poco mejor".
                 </p>
@@ -279,9 +303,11 @@ function App() {
                   perdieran el dinero que ganan con su esfuerzo.
                 </p>
                 <p>
-                  Así que nuestro equipo editorial probó <a href={LINK} target="_blank">
+                  Así que nuestro equipo editorial probó{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a> para asegurarse que en verdad funciona como dice Martin
+                  </a>{" "}
+                  para asegurarse que en verdad funciona como dice Martin
                   Vizcarra. Uno de nuestros editores en línea, Juan Gómez, se
                   ofreció como voluntario y arriesgó su propio dinero para
                   probar Bitcoin Code.
@@ -333,9 +359,11 @@ function App() {
                   la moneda que prefieras.
                 </p>
                 <p>
-                  El sistema de <a href={LINK} target="_blank">
+                  El sistema de{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a> es una plataforma que hace transacciones automáticas con
+                  </a>{" "}
+                  es una plataforma que hace transacciones automáticas con
                   criptomonedas. El software utiliza algoritmos avanzados de
                   inteligencia artificial y aprendizaje automático para predecir
                   exactamente cuándo las criptomonedas subirán o bajarán. Luego
@@ -389,9 +417,11 @@ function App() {
                   El día siguiente era martes y tenía que ir a trabajar otra
                   vez. Si les soy sincero (y no le digan esto a mi jefe), fue
                   difícil concentrarme en el trabajo mientras pensaba que el
-                  software de <a href={LINK} target="_blank">
+                  software de{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a> me estaba generando dinero.
+                  </a>{" "}
+                  me estaba generando dinero.
                 </p>
                 <p>
                   Me escapé al baño varias veces para revisar cómo iban mis
@@ -418,9 +448,11 @@ function App() {
               <div className="content-text">
                 <h6>Juan dice,</h6>
                 <p>
-                  “Ahora hago regularmente unos S/2,500 – 5.000 al día gracias a <a href={LINK} target="_blank">
+                  “Ahora hago regularmente unos S/2,500 – 5.000 al día gracias a{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>. El dinero se deposita en mi cuenta del banco cada par de
+                  </a>
+                  . El dinero se deposita en mi cuenta del banco cada par de
                   días. Con solo unos cuantos clics recibo mi dinero en las
                   siguientes 24 a 48 horas. Cada vez que veo la transferencia en
                   mi cuenta, tengo que pellizcarme para asegurarme de que no
@@ -437,9 +469,11 @@ function App() {
                 <p>
                   Nada de esto sería posible sin la generosidad del Sr. Martin
                   Vizcarra, quien compartió este secreto en la TV en vivo. Y me
-                  alegra haberme atrevido a probar <a href={LINK} target="_blank">
+                  alegra haberme atrevido a probar{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a> yo mismo. Mi esposa está más feliz que nunca y la despensa de
+                  </a>{" "}
+                  yo mismo. Mi esposa está más feliz que nunca y la despensa de
                   juguetes de mis hijos está hasta el tope
                 </p>
                 <p>
@@ -471,9 +505,11 @@ function App() {
                 </p>
                 <h3>ESTA ES LA GUÍA PASO A PASO:</h3>
                 <p>
-                  Lo primero que ves es un video que presume del poder de <a href={LINK} target="_blank">
+                  Lo primero que ves es un video que presume del poder de{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a>. La publicidad es grande y llamativa y "te explota en la
+                  </a>
+                  . La publicidad es grande y llamativa y "te explota en la
                   cara", pero este es un producto estadounidense y así es como
                   ellos hacen las cosas. Bien, simplemente debes escribir tu
                   nombre y dirección de correo junto al video para empezar de
@@ -542,9 +578,11 @@ function App() {
                 <h3>ACTUALIZACIÓN</h3>
                 <p>
                   Acabamos de recibir la noticia de que ya casi todos los
-                  lugares para los residentes de América Latina están ocupados. <a href={LINK} target="_blank">
+                  lugares para los residentes de América Latina están ocupados.{" "}
+                  <a href={LINK} target="_blank">
                     Bitcoin Code
-                  </a> puede aceptar solo una cantidad limitada de usuarios para así
+                  </a>{" "}
+                  puede aceptar solo una cantidad limitada de usuarios para así
                   mantener los altos niveles de ganancias por usuario. En este
                   momento aún quedan 37 espacios disponibles, así que date prisa
                   y regístrate para que asegures tu lugar.
