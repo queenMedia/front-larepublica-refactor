@@ -10,7 +10,7 @@
   align-items: center;
   z-index: 2;
 }
-.popup-container{
+.popup-container {
   position: relative;
 }
 .popup-background {
@@ -97,7 +97,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .paragraph {
-    font-size: 14px;
+  .popup {
+    display: none;
   }
 }
