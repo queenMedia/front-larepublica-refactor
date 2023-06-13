@@ -1,6 +1,7 @@
 .img-with-text {
   margin: 30px 0px;
   text-align: justify;
+  cursor: pointer;
 }
 .img-with-text p {
   font-size: 12px;

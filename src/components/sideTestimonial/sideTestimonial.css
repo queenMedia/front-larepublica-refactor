@@ -1,5 +1,6 @@
 .sideTestimonial img {
   width: 100%;
+  cursor: pointer;
 }
 .sideTestimonial p {
   margin-top: 10px;

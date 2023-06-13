@@ -8,6 +8,7 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
   height: 80px;
+  cursor: pointer;
 }
 .stickyFooter button {
   height: 50px;
@@ -18,4 +19,5 @@
   font-family: Georgia;
   font-size: 20px;
   border: none;
+  cursor: pointer;
 }
