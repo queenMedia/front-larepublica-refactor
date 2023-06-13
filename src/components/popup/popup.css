@@ -10,7 +10,21 @@
   align-items: center;
   z-index: 2;
 }
+.popup-container{
+  position: relative;
+}
+.popup-background {
+  width: 100%;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 2%;
+}
 .popup-close {
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   cursor: pointer;
 }
 .offer {
@@ -19,7 +33,7 @@
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .paragraph {
   margin: 0;
@@ -27,7 +41,7 @@
   text-align: center;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .close-modal {
   width: 30px;
@@ -39,47 +53,19 @@
   background: transparent;
   border: none;
   cursor: pointer;
-
 }
-.popup-content {
-  width: 570px;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  background: url("./bitcoin-code.png") no-repeat center/cover;
-  padding: 20px;
-  border-radius: 5px;
-  border: 2px solid white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-
-}
-.popup-header {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-}
-.popup-header > div > p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 18px;
-  margin: 4px;
-  font-family: "Open Sans", sans-serif;
-}
-.popup-txt {
-  text-align: center;
-  margin: auto;
-}
-.popup-body button {
+.popup-button {
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
   text-align: center;
   display: block;
-  width: 100%;
+  width: 200px;
   max-width: 2000px;
   padding: 9px 20px;
   border-radius: 5px;

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { handleRoute, OFFER_NAME } from "../../config";
-import iconClose from '../../assets/images/icons/icon-close.svg';
+import { handleRoute, MODAL } from "../../config";
+import iconClose from "../../assets/images/icons/icon-close.svg";
 import "./popup.css";
 
 const Popup = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,18 +24,17 @@ const Popup = () => {
     <>
       {showModal && (
         <div className="popup">
-          <div className="popup-content">
-            <p className="paragraph">
-              ¡No te lo pierdas!<br/>
-              Esta es la ÚLTIMA oportunidad de ingresar al<br/>
-              <span className="offer">{OFFER_NAME}</span>
-            </p>
-            <button onClick={()=>closeModal()} type="button" className="close-modal">
-              <img src={iconClose} alt="close" />
+          <div className="popup-container">
+            <img className="popup-background" src={MODAL} alt="background" />
+            <img
+              onClick={() => closeModal()}
+              className="popup-close"
+              src={iconClose}
+              alt="close"
+            />
+            <button onClick={() => handleRoute()} className="popup-button">
+              Empezar Ahora
             </button>
-            <div className="popup-body" onClick={handleRoute}>
-              <button>Empezar Ahora</button>
-            </div>
           </div>
         </div>
       )}
