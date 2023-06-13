@@ -16,6 +16,8 @@ import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH , OFFER_NAME } from "./co
 import Image1 from "./assets/images/character/image1.png";
 import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
+import Image4 from "./assets/images/character/image4.png";
+import Image8 from "./assets/images/character/image8.png";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -187,9 +189,7 @@ function App() {
             </p>
           </div>
           <CharacterImage
-            src={
-              "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img5.jpg"
-            }
+            src={Image4}
             txt={
               `Bill Gates y Richard Branson conversaron sobre ${OFFER_NAME} en CES 2021.`
             }
@@ -531,9 +531,7 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img9.jpg"
-                }
+                src={Image8}
                 txt={
                   `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
                 }
