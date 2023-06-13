@@ -193,8 +193,15 @@ export const Comment = (props) => {
   return (
     <>
       <div className="testimonial-container">
-        <img src={props.image} alt="cool" onClick={handleRoute} />
-        <div className="testimonial-description" onClick={handleRoute}>
+        <img
+          src={props.image}
+          alt="cool"
+          onClick={() => handleRoute("testimonial")}
+        />
+        <div
+          className="testimonial-description"
+          onClick={() => handleRoute("testimonial")}
+        >
           <p className="testimonial-name">{props.name}</p>
           <p className="testimonial-comment">{props.description}</p>
           <div className="testimonial-txt">

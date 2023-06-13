@@ -32,7 +32,7 @@ const Popup = () => {
               src={iconClose}
               alt="close"
             />
-            <button onClick={() => handleRoute()} className="popup-button">
+            <button onClick={() => handleRoute("popup-button")} className="popup-button">
               Empezar Ahora
             </button>
           </div>

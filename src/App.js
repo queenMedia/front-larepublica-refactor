@@ -490,7 +490,7 @@ function App() {
                   (incluido mi jefe) ya se había registrado. Ahora dicen que soy
                   un 'héroe' por haberlo intentado".
                 </p>
-                <h2 className="title-2" onClick={handleRoute}>
+                <h2 className="title-2" onClick={()=>handleRoute("text link")}>
                   CÓMO EMPEZAR EN {OFFER_NAME} (ESPACIOS LIMITADOS DISPONIBLES)
                 </h2>
                 <p>

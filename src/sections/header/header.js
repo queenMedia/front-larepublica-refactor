@@ -11,7 +11,7 @@ const Header = (props) => {
     transition: width 0.3s ease-out;
   `;
   return (
-    <header className="headerContainer" onClick={handleRoute}>
+    <header className="headerContainer" onClick={()=>handleRoute("header_Container")}>
       <div className="topHeader">
         <div type="button" className="css-10nqdzz">
           <span className="css-1qt2np7"></span>
