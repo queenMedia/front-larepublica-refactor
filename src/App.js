@@ -12,7 +12,7 @@ import Header from "./sections/header/header";
 import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
-import { LINK, handleRoute } from "./config";
+import { LINK, handleRoute, CHARACTER } from "./config";
 import Image2 from "./assets/images/image2.png";
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
           />
           <div className="content-text">
             <p>
-              El ex presidente de Perú, Martin Vizcarra, es famoso por no
+              El ex presidente de Perú, {CHARACTER}, es famoso por no
               guardarse ningún secreto y por hablar simple y llanamente de como
               gana su dinero. Y siempre está ansioso por ayudar a la gente
               común.
@@ -58,7 +58,7 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 {" "}
-                La semana pasada Martin Vizcarra fue entrevistado en el programa
+                La semana pasada {CHARACTER} fue entrevistado en el programa
                 "Cara a Cara" y anunció una nueva "laguna"{" "}
               </a>{" "}
               que, según él, puede
@@ -66,7 +66,7 @@ function App() {
                 {" "}
                 hacer que cualquier persona sea millonaria en 3-4 meses.
               </strong>{" "}
-              Martin Vizcarra animó a todas las personas en América Latina a que
+              {CHARACTER} animó a todas las personas en América Latina a que
               aprovechen esta increíble oportunidad antes de que los grandes
               bancos acaben con ella para siempre.
             </p>
@@ -95,7 +95,7 @@ function App() {
               lo manden a cerrar."
             </p>
             <p>
-              Enrique Chávez no lo podía creer cuando Martin Vizcarra sacó su
+              Enrique Chávez no lo podía creer cuando {CHARACTER} sacó su
               teléfono y mostró a los televidentes cuánto dinero hace con este
               nuevo programa que está sorprendiendo a todo el mundo en Perú.
             </p>
@@ -106,13 +106,13 @@ function App() {
             <p>
               El tiempo del programa se agotó antes de que pudiera explicar todo
               con lujo de detalles, así que conseguimos una entrevista exclusiva
-              con el mismísimo Martin Vizcarra para aprender más sobre esta
+              con el mismísimo {CHARACTER} para aprender más sobre esta
               oportunidad que está generando controversias.
             </p>
           </div>
           <LinkButton />
           <div className="content-text">
-            <h3 className="title-2">EN EXCLUSIVA CON MARTIN VIZCARRA</h3>
+            <h3 className="title-2">EN EXCLUSIVA CON {CHARACTER}</h3>
             <p className="paragraph-italic">
               "Seguramente han oído hablar sobre esta{" "}
               <a href={LINK} target="_blank">
@@ -127,7 +127,7 @@ function App() {
               posible que lo vean con escepticismo porque suena demasiado bueno
               para ser verdad".
             </p>
-            <p>Martin Vizcarra prosigue:</p>
+            <p>{CHARACTER} prosigue:</p>
             <p className="paragraph-italic">
               "Yo lo entiendo porque me pasó exactamente lo mismo cuando me lo
               contó un amigo en el que confío mucho. Sin embargo, después de ver
@@ -226,7 +226,7 @@ function App() {
                   EL LUCRATIVO SECRETO PARA GENERAR DINERO QUE LOS GRANDES
                   BANCOS NO QUIEREN QUE SEPAS
                 </h2>
-                <p>Martin Vizcarra continúa,</p>
+                <p>{CHARACTER} continúa,</p>
                 <p>
                   "Nuestra economía está pasando por momentos difíciles y esta
                   es la solución que la gente ha estado esperando. Nunca en la
@@ -295,7 +295,7 @@ function App() {
                 </h2>
                 <p>
                   Nuestros editores en jefe no nos dejaron publicar la
-                  entrevista con Martin Vizcarra hasta verificar que{" "}
+                  entrevista con {CHARACTER} hasta verificar que{" "}
                   <a src={LINK} target="_blank">
                     Bitcoin Code
                   </a>{" "}
@@ -423,7 +423,7 @@ function App() {
                   </strong>
                 </p>
                 <p>
-                  Ahora sé por qué Martin Vizcarra está siempre de buen humor. Y
+                  Ahora sé por qué {CHARACTER} está siempre de buen humor. Y
                   por qué los grandes bancos no quieren que la gente sepa nada
                   sobre esta laguna. Al final del día había hecho{" "}
                   <strong>más de S/2.700 en ganancias,</strong> ¡nada mal para
@@ -592,7 +592,7 @@ function App() {
                   Bien, esta es una oportunidad única en la vida para construir
                   una fortuna que te permita vivir la vida que de verdad deseas.
                   NO va a estar disponible para siempre, así que no te lo
-                  pierdas." – <strong>Martin Vizcarra</strong>
+                  pierdas." – <strong>{CHARACTER}</strong>
                 </p>
                 <h2 className="title-2">ACTUALIZACIÓN</h2>
                 <p>
