@@ -1,6 +1,6 @@
 import "./header.css";
 import { css } from "@emotion/css";
-import { handleRoute } from "../../config";
+import { handleRoute, LOGO } from "../../config";
 import IconSearch from "../../assets/images/search-elcomercio.svg";
 
 const Header = (props) => {
@@ -18,7 +18,7 @@ const Header = (props) => {
           <span className="css-1qt2np7"></span>
           <span className="css-1qt2np7"></span>
         </div>
-        <img src="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_white-cb374dfd.svg" />
+        <img src={LOGO} />
         <img className="iconSearch" src={IconSearch} />
       </div>
       <div className="progressBar">
