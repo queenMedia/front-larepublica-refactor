@@ -6,7 +6,6 @@ import { CharacterImage } from "./components/characterImage/characterImage";
 import { LinkButton } from "./components/linkButton/linkButton";
 import { ReadMore } from "./components/readMore/readMore";
 import SideBar from "./sections/sideBar/sideBar";
-import { css } from "@emotion/css";
 import MainFooter from "./sections/mainFooter/mainFooter";
 import StickyFooter from "./sections/stickyFooter/stickyFooter";
 import Header from "./sections/header/header";
