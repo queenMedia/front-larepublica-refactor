@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { handleRoute } from "../../config";
+import { handleRoute, OFFER_NAME } from "../../config";
 import iconClose from '../../assets/images/icons/icon-close.svg';
 import "./popup.css";
 
@@ -28,7 +28,7 @@ const Popup = () => {
             <p className="paragraph">
               ¡No te lo pierdas!<br/>
               Esta es la ÚLTIMA oportunidad de ingresar al<br/>
-              <span className="offer">BITCOIN CODE</span>
+              <span className="offer">{OFFER_NAME}</span>
             </p>
             <button onClick={()=>closeModal()} type="button" className="close-modal">
               <img src={iconClose} alt="close" />

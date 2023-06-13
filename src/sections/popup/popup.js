@@ -1,5 +1,5 @@
 import "./popup.css";
-
+import { OFFER_NAME } from "../../config";
 const Popup = () => {
   return (
     <dialog class="popUp-dialog">
@@ -17,7 +17,7 @@ const Popup = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              BITCOIN CODE
+              {OFFER_NAME}
             </a>
           </p>
           <button class="popUp-button" type="button">
