@@ -12,7 +12,7 @@ import Header from "./sections/header/header";
 import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
-import { LINK, handleRoute, CHARACTER } from "./config";
+import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH } from "./config";
 import Image1 from "./assets/images/character/image1.png";
 import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
@@ -49,11 +49,7 @@ function App() {
             }
           />
           <div className="content-text">
-            <p>
-              El ex presidente de Perú, {CHARACTER}, es famoso por no guardarse
-              ningún secreto y por hablar simple y llanamente de como gana su
-              dinero. Y siempre está ansioso por ayudar a la gente común.
-            </p>
+            <p>{FIRST_PARAGRAPH}</p>
             <p>
               <a href={LINK} target="_blank">
                 {" "}
@@ -143,7 +139,7 @@ function App() {
               O de que los bancos lo destruyan para siempre".
             </p>
           </div>
-          <CharacterImage src={Image3}txt={""}/>
+          <CharacterImage src={Image3} txt={""} />
           <div className="content-text">
             <h3 className="title-2">
               ¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO <br /> FUNCIONA?
@@ -190,7 +186,10 @@ function App() {
               <strong> Richard Branson, Elon Musk y Bill Gates.</strong>
             </p>
           </div>
-          <CharacterImage src={"https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img5.jpg"}
+          <CharacterImage
+            src={
+              "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img5.jpg"
+            }
             txt={
               "Bill Gates y Richard Branson conversaron sobre Bitcoin Code en CES 2021."
             }
