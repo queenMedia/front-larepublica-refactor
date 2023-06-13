@@ -1,13 +1,12 @@
 import "./subTitle.css";
+import { SUBTITLE_FIRST_LINE, SUBTITLE_SECOND_LINE } from "../../config";
 
 export const SubTitle = () => {
   return (
     <>
       <div className="subTitle">
         <h6>
-          Ya los latinoamericanos están amasando millones de USD desde sus casas
-          gracias a <br />
-          esta "laguna", pero ¿es legal?
+          {SUBTITLE_FIRST_LINE} <br /> {SUBTITLE_SECOND_LINE}
         </h6>
       </div>
     </>

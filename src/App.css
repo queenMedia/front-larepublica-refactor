@@ -3,46 +3,6 @@
   flex-direction: column;
   align-items: center;
 }
-.headerContainer {
-  display: flex;
-  position: fixed;
-  justify-content: center;
-  flex-direction: column;
-  margin: auto;
-  width: 100%;
-  max-width: 1130px;
-  z-index: 1;
-  background-color: white;
-  cursor: pointer;
-}
-.iconSearch {
-  display: block;
-  width: 20px;
-  min-width: 20px;
-  height: 20px;
-  margin-top: 7px;
-}
-.topHeader {
-  background-color: red;
-  padding: 12px 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-}
-.bottomHeader {
-  display: flex;
-  background-color: white;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 11px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-}
 .bodyContainer {
   max-width: 1130px;
   width: 100%;
@@ -58,7 +18,7 @@
   border: none;
 }
 .sidebar {
-  margin-top: 20px;
+  margin-top: 7px;
   width: 30%;
 }
 .content-text {
@@ -70,7 +30,6 @@
 }
 .paragraph-italic {
   font-style: italic;
-
 }
 .title-2 {
   margin-bottom: 0;
