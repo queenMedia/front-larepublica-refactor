@@ -3,8 +3,8 @@ import PRIME from "./assets/images/modal/PRIME.png"
 
 export const LINK ="https://givemes.com/outgoing";
 export const CHARACTER ="Martin Vizcarra"
-export const OFFER_NAME ="Bitcoin Code"
-export const MODAL=CODE
+export const OFFER_NAME ="Bitcoin Prime"
+export const MODAL=PRIME
 export const SUBTITLE_FIRST_LINE ="Ya los latinoamericanos están amasando millones de USD desde sus casas gracias a"
 export const SUBTITLE_SECOND_LINE =`esta "laguna", pero ¿es legal?`
 export const FIRST_PARAGRAPH =`El ex presidente de Perú, ${CHARACTER}, es famoso por no guardarse ningún secreto y por hablar simple y llanamente de como gana su dinero. Y siempre está ansioso por ayudar a la gente común.`
