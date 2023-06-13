@@ -5,6 +5,7 @@
 .testimonial-description {
   flex-grow: 1;
   margin-top: 5px;
+  cursor: pointer;
 }
 .testimonial-container img {
   height: 70px;
@@ -19,6 +20,7 @@
   margin: 0px 0px 5px;
   line-height: 14px;
   font-weight: bold;
+  cursor: pointer;
 }
 .testimonial-comment {
   margin-top: 5px;

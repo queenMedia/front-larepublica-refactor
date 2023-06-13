@@ -81,7 +81,7 @@ function App() {
           />
           <div className="content-text">
             <p>
-              El presidente de Perú, Martin Vizcarra, es famoso por no guardarse
+              El ex presidente de Perú, Martin Vizcarra, es famoso por no guardarse
               ningún secreto y por hablar simple y llanamente de como gana su
               dinero. Y siempre está ansioso por ayudar a la gente común.
             </p>

@@ -13,6 +13,7 @@
   max-width: 1130px;
   z-index: 1;
   background-color: white;
+  cursor: pointer;
 }
 .iconSearch {
   display: block;
@@ -133,6 +134,9 @@
   line-height: 18px;
   color: rgb(59, 89, 152);
   font-weight: bold;
+}
+img{
+  cursor: pointer;
 }
 @media only screen and (max-width: 400px) {
   .sidebar {

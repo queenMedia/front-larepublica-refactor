@@ -31,6 +31,7 @@ footer {
   width: calc(16.6667%);
   color: black;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .footer-rightSide {
   margin-top: 16px;
