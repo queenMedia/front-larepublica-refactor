@@ -12,7 +12,7 @@ import Header from "./sections/header/header";
 import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
-import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH } from "./config";
+import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH , OFFER_NAME } from "./config";
 import Image1 from "./assets/images/character/image1.png";
 import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
@@ -82,7 +82,7 @@ function App() {
               <a href={LINK} target="_blank">
                 Y en este momento mi método #1 para hacer dinero es un nuevo
                 programa que hace transacciones automáticas con criptomonedas
-                llamado Bitcoin Code
+                llamado {OFFER_NAME}
               </a>
               . En toda mi vida no había visto una oportunidad tan increíble
               como esta, que te permite generar una fortuna en poco tiempo. Le
@@ -115,7 +115,7 @@ function App() {
               </a>{" "}
               de inversiones con criptomonedas llamada{" "}
               <a href={LINK} target="_blank">
-                Bitcoin Code
+                {OFFER_NAME}
               </a>{" "}
               que está ayudando a la gente promedio de América Latina, Asia y
               América del Norte a construir fortunas de la noche a la mañana. Es
@@ -142,13 +142,13 @@ function App() {
           <CharacterImage src={Image3} txt={""} />
           <div className="content-text">
             <h3 className="title-2">
-              ¿QUÉ ES EXACTAMENTE Bitcoin Code Y CÓMO <br /> FUNCIONA?
+              ¿QUÉ ES EXACTAMENTE {OFFER_NAME} Y CÓMO <br /> FUNCIONA?
             </h3>
             <p>
               <strong>
                 La idea detrás de{" "}
                 <a href={LINK} target="_blank">
-                  Bitcoin Code
+                  {OFFER_NAME}
                 </a>{" "}
                 es bastante sencilla:
               </strong>{" "}
@@ -170,7 +170,7 @@ function App() {
             </p>
             <p>
               <a href={LINK} target="_blank">
-                Bitcoin Code
+                {OFFER_NAME}
               </a>{" "}
               te permite sacar provecho de todas estas criptomonedas, incluso en
               un mercado bajista. Utiliza inteligencia artificial (AI) para
@@ -179,7 +179,7 @@ function App() {
             </p>
             <p>
               <a href={LINK} target="_blank">
-                Bitcoin Code
+                {OFFER_NAME}
               </a>{" "}
               está respaldado por algunas de las mentes más brillantes de la
               historia en el área de la tecnología. Entre ellas tenemos a
@@ -236,7 +236,7 @@ function App() {
                   Los grandes bancos están todo el tiempo generando propaganda y
                   diciendo que las criptomonedas y las plataformas como{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   son un fraude. ¿Por qué? Temen que sus beneficios corporativos
                   disminuyan una vez que sus clientes aprendan a generar
@@ -263,7 +263,7 @@ function App() {
                     Mi favorito es el de un joven que gracias al dinero que hizo
                     con{" "}
                     <a href={LINK} target="_blank">
-                      Bitcoin Code
+                      {OFFER_NAME}
                     </a>
                   </strong>{" "}
                   le regaló a su hermano menor el auto de sus sueños: un Ferrari
@@ -281,13 +281,13 @@ function App() {
               />
               <div className="content-text">
                 <h2 className="title-2">
-                  ¿BITCOIN CODE DE VERDAD FUNCIONA? LO PROBAMOS NOSOTROS MISMOS
+                  ¿{OFFER_NAME} DE VERDAD FUNCIONA? LO PROBAMOS NOSOTROS MISMOS
                 </h2>
                 <p>
                   Nuestros editores en jefe no nos dejaron publicar la
                   entrevista con {CHARACTER} hasta verificar que{" "}
                   <a src={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   es un método legítimo para hacer dinero desde casa. La
                   gerencia no quería que publicáramos ningún tipo de información
@@ -297,14 +297,14 @@ function App() {
                 <p>
                   Así que nuestro equipo editorial probó{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   para asegurarse que en verdad funciona como dice Martin
                   Vizcarra. Uno de nuestros editores en línea, Juan Gómez, se
                   ofreció como voluntario y arriesgó su propio dinero para
                   probar{" "}
                   <a src={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>
                   .
                 </p>
@@ -358,7 +358,7 @@ function App() {
                 <p>
                   El sistema de{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   es una plataforma que hace transacciones automáticas con
                   criptomonedas. El software utiliza algoritmos avanzados de
@@ -426,7 +426,7 @@ function App() {
                   difícil concentrarme en el trabajo mientras pensaba que el
                   software de{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   me estaba generando dinero.
                 </p>
@@ -458,7 +458,7 @@ function App() {
                   “Ahora hago regularmente unos <strong>S/2,500 – 5.000</strong>{" "}
                   al día gracias a{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>
                   . El dinero se deposita en mi cuenta del banco cada par de
                   días. Con solo unos cuantos clics recibo mi dinero en las
@@ -479,7 +479,7 @@ function App() {
                   Vizcarra, quien compartió este secreto en la TV en vivo. Y me
                   alegra haberme atrevido a probar{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   yo mismo. Mi esposa está más feliz que nunca y la despensa de
                   juguetes de mis hijos está hasta el tope
@@ -491,7 +491,7 @@ function App() {
                   un 'héroe' por haberlo intentado".
                 </p>
                 <h2 className="title-2" onClick={handleRoute}>
-                  CÓMO EMPEZAR EN BITCOIN CODE (ESPACIOS LIMITADOS DISPONIBLES)
+                  CÓMO EMPEZAR EN {OFFER_NAME} (ESPACIOS LIMITADOS DISPONIBLES)
                 </h2>
                 <p>
                   Para empezar, solo necesitas tu computadora, un teléfono
@@ -515,7 +515,7 @@ function App() {
                 <p>
                   Lo primero que ves es un video que presume del poder de{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>
                   . La publicidad es grande y llamativa y "te explota en la
                   cara", pero este es un producto estadounidense y así es como
@@ -589,7 +589,7 @@ function App() {
                   Acabamos de recibir la noticia de que ya casi todos los
                   lugares para los residentes de América Latina están ocupados.{" "}
                   <a href={LINK} target="_blank">
-                    Bitcoin Code
+                    {OFFER_NAME}
                   </a>{" "}
                   puede aceptar solo una cantidad limitada de usuarios para así
                   mantener los altos niveles de ganancias por usuario. En este
