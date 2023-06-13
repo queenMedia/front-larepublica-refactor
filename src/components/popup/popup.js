@@ -4,7 +4,7 @@ import iconClose from "../../assets/images/icons/icon-close.svg";
 import "./popup.css";
 
 const Popup = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
