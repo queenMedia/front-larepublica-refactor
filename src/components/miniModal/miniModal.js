@@ -2,7 +2,7 @@ import "./miniModal.css";
 import { handleRoute } from "../../config";
 const MiniModal = () => {
   return (
-    <div className="miniModal" onClick={handleRoute}>
+    <div className="miniModal" onClick={() => handleRoute("miniModal")}>
       <img src="https://www.lps.martinviz.com/_app/immutable/assets/widthdraw-0e399313.png" />
       <div>
         <p>Alguien de Peru acaba de retirar</p>

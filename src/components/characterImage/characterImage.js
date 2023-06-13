@@ -4,7 +4,10 @@ import { handleRoute } from "../../config";
 export const CharacterImage = (props) => {
   return (
     <>
-      <div className="img-with-text" onClick={handleRoute}>
+      <div
+        className="img-with-text"
+        onClick={() => handleRoute("img-with-text")}
+      >
         <img src={props.src} alt="sometext" />
         <p>
           <strong>{props.txt}</strong>
