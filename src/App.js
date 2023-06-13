@@ -191,7 +191,7 @@ function App() {
               "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img5.jpg"
             }
             txt={
-              "Bill Gates y Richard Branson conversaron sobre Bitcoin Code en CES 2021."
+              `Bill Gates y Richard Branson conversaron sobre ${OFFER_NAME} en CES 2021.`
             }
           />
           <div className="content-text">
@@ -320,7 +320,7 @@ function App() {
                   "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img7.jpg"
                 }
                 txt={
-                  "Su familia estaba luchando para que el dinero les alcanzara y tenían sus esperanzas puestas en que Bitcoin Code les ayudaría a aliviar la presión, así que Juan decidió probar el sistema y hablar sobre los resultados que obtuvo."
+                  `Su familia estaba luchando para que el dinero les alcanzara y tenían sus esperanzas puestas en que ${OFFER_NAME} les ayudaría a aliviar la presión, así que Juan decidió probar el sistema y hablar sobre los resultados que obtuvo.`
                 }
               />
               <div className="content-text">
@@ -449,7 +449,7 @@ function App() {
                   "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img8.jpg"
                 }
                 txt={
-                  "Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma Bitcoin Code."
+                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
                 }
               />
               <div className="content-text">
@@ -535,7 +535,7 @@ function App() {
                   "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img9.jpg"
                 }
                 txt={
-                  "Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma Bitcoin Code."
+                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
                 }
               />
               <div className="content-text">
@@ -551,7 +551,7 @@ function App() {
                   "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img10.jpg"
                 }
                 txt={
-                  "Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma Bitcoin Code."
+                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
                 }
               />
               <div className="content-text">

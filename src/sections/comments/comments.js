@@ -18,8 +18,7 @@ export const comments = [
   {
     image: "https://pgenpro-test.s3.amazonaws.com/Comments/ashley.jpg",
     name: "Jenifer García",
-    description:
-      "Un amigo mío lo usa y me lo ha recomendado, lo investigaré.",
+    description: "Un amigo mío lo usa y me lo ha recomendado, lo investigaré.",
     number: "19 . Me gusta",
     time: "Hace 13 minutos",
   },
@@ -42,8 +41,7 @@ export const comments = [
   {
     name: "Amanda Huerta",
     image: "https://pgenpro-test.s3.amazonaws.com/Comments/kirs.jpg",
-    description:
-      "Lo vi en las noticias. ¡Gracias por este artículo!",
+    description: "Lo vi en las noticias. ¡Gracias por este artículo!",
     number: "3 . Me gusta",
     time: "Hace 1 hora",
   },
@@ -114,8 +112,7 @@ export const comments = [
   {
     name: "Esther Calatrava",
     image: "https://pgenpro-test.s3.amazonaws.com/Comments/julie.jpg",
-    description:
-      "Me acabo de registrar, deseadme mucha suerte.",
+    description: "Me acabo de registrar, deseadme mucha suerte.",
     number: "13 . Me gusta",
     time: "Hace 4 horas",
   },
@@ -130,8 +127,7 @@ export const comments = [
   {
     name: "Juan García",
     image: "https://pgenpro-test.s3.amazonaws.com/Comments/silver.jpg",
-    description:
-      "Las últimas semanas he estado operando con Bitcoin Code y he ganado USD/8,238. ¡Me encanta!",
+    description: `Las últimas semanas he estado operando con ${OFFER_NAME}  y he ganado USD/8,238. ¡Me encanta!`,
     number: "13 . Me gusta",
     time: "Hace 6 horas",
   },
