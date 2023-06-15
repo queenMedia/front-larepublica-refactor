@@ -47,7 +47,7 @@ function App() {
           <CharacterImage
             src={Image1}
             txt={
-              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
+              "Dina Boluarte revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
             }
           />
           <div className="content-text">
@@ -55,10 +55,10 @@ function App() {
             <p>
               <a href={LINK} target="_blank">
                 {" "}
-                La semana pasada {CHARACTER} fue entrevistado en el programa
+                La semana pasada {CHARACTER} fue entrevistada en el programa
                 "Cara a Cara" y anunció una nueva "laguna"{" "}
               </a>{" "}
-              que, según él, puede
+              que, según ella, puede
               <strong>
                 {" "}
                 hacer que cualquier persona sea millonaria en 3-4 meses.
@@ -74,12 +74,11 @@ function App() {
             </p>
             <h3>Esto fue lo que pasó exactamente:</h3>
             <p>
-              El presentador de "Cara a Cara", Enrique Chávez, invitó a Martin
-              Vizcarra al programa para que compartiera sus consejos sobre cómo
+              El presentador de "Cara a Cara", Enrique Chávez, invitó a {CHARACTER} al programa para que compartiera sus consejos sobre cómo
               generar riquezas y así fue como él reveló el gran secreto.
             </p>
             <p className="paragraph-italic">
-              "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
+              "Lo que me ha hecho exitosa ha sido que aprovecho rápidamente las
               nuevas oportunidades, sin dudarlo.{" "}
               <a href={LINK} target="_blank">
                 Y en este momento mi método #1 para hacer dinero es un nuevo
@@ -103,7 +102,7 @@ function App() {
             <p>
               El tiempo del programa se agotó antes de que pudiera explicar todo
               con lujo de detalles, así que conseguimos una entrevista exclusiva
-              con el mismísimo {CHARACTER} para aprender más sobre esta
+              con la mismísima {CHARACTER} para aprender más sobre esta
               oportunidad que está generando controversias.
             </p>
           </div>
@@ -299,8 +298,7 @@ function App() {
                   <a href={LINK} target="_blank">
                     {OFFER_NAME}
                   </a>{" "}
-                  para asegurarse que en verdad funciona como dice Martin
-                  Vizcarra. Uno de nuestros editores en línea, Juan Gómez, se
+                  para asegurarse que en verdad funciona como dice {CHARACTER}. Uno de nuestros editores en línea, Juan Gómez, se
                   ofreció como voluntario y arriesgó su propio dinero para
                   probar{" "}
                   <a src={LINK} target="_blank">
@@ -326,8 +324,7 @@ function App() {
               <div className="content-text">
                 <h3 className="title-3">Juan informa que:</h3>
                 <p>
-                  "Al principio, cuando escuché la entrevista de Martin
-                  Vizcarra, pensé que era un chiste. Hacer dinero desde casa no
+                  "Al principio, cuando escuché la entrevista de {CHARACTER}, pensé que era un chiste. Hacer dinero desde casa no
                   es más que un sueño. Decidí que igual lo iba a probar, dadas
                   mis circunstancias económicas. Además, todo sea por el
                   periodismo de calidad.
@@ -475,8 +472,7 @@ function App() {
                   en orden.
                 </p>
                 <p>
-                  Nada de esto sería posible sin la generosidad del Sr. Martin
-                  Vizcarra, quien compartió este secreto en la TV en vivo. Y me
+                  Nada de esto sería posible sin la generosidad del Sr. {CHARACTER}, quien compartió este secreto en la TV en vivo. Y me
                   alegra haberme atrevido a probar{" "}
                   <a href={LINK} target="_blank">
                     {OFFER_NAME}
