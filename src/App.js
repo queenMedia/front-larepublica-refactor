@@ -20,6 +20,7 @@ import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
 import Image4 from "./assets/images/character/image4.png";
 import Image8 from "./assets/images/character/image8.png";
+import { ComercioFooter } from "./sections/comercioFooter/comercioFooter";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -587,8 +588,7 @@ function App() {
           <SideBar />
         </div>
       </body>
-      <MainFooter />
-      <MainFooter />
+      <ComercioFooter />
       <Popup />
       <StickyFooter />
       <MiniModal />

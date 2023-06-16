@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .footer-section .f-content {
+        max-width: 673px;
+        padding: 46px 45px;
+    }
+}
+@media screen and (max-width: 673px) {
+    .footer-section .f-content {
+        max-width: 948px;
+        padding: 46px 0 0 0;
+    }
+    .footer-section {
+        min-width: 1px;
+    }
+    .footer-section .f-content .wraper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
