@@ -9,6 +9,8 @@ import SideBar from "./sections/sideBar/sideBar";
 import MainFooter from "./sections/mainFooter/mainFooter";
 import StickyFooter from "./sections/stickyFooter/stickyFooter";
 import Header from "./sections/header/header";
+
+import { ComercioHeader } from "./sections/comercioHeader/comercioheader";
 import { Comment, comments } from "./sections/comments/comments.js";
 import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
@@ -33,8 +35,9 @@ function App() {
   });
 
   return (
+    <>
+    <ComercioHeader />
     <div className="container">
-      <Header scrollProgress={scrollProgress} />
       <body className="bodyContainer">
         <div className="content">
           <Title />
@@ -42,14 +45,10 @@ function App() {
           <img
             className="fimage"
             src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg"
-            alt="someImage"
-          />
+            alt="someImage" />
           <CharacterImage
             src={Image1}
-            txt={
-              "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
-            }
-          />
+            txt={"Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"} />
           <div className="content-text">
             <p>{FIRST_PARAGRAPH}</p>
             <p>
@@ -190,10 +189,7 @@ function App() {
           </div>
           <CharacterImage
             src={Image4}
-            txt={
-              `Bill Gates y Richard Branson conversaron sobre ${OFFER_NAME} en CES 2021.`
-            }
-          />
+            txt={`Bill Gates y Richard Branson conversaron sobre ${OFFER_NAME} en CES 2021.`} />
           <div className="content-text">
             <p>
               Estos genios de la tecnología han construido empresas
@@ -272,13 +268,8 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img6.jpg"
-                }
-                txt={
-                  "Desde que mi hermano menor era un niño, quiso un Ferrari 488 Pista por su clásico y hermoso color rojo y su poderoso motor. Bien, últimamente he estado haciendo enormes cantidades de dinero gracias a una nueva plataforma para hacer transacciones con criptomonedas (escríbanme si quieren más detalles), ¡Y lo sorprendí con el AUTO DE SUS SUEÑOS! ¡Su raección NO TIENE PRECIO! ¡Te amo, hermanito!"
-                }
-              />
+                src={"https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img6.jpg"}
+                txt={"Desde que mi hermano menor era un niño, quiso un Ferrari 488 Pista por su clásico y hermoso color rojo y su poderoso motor. Bien, últimamente he estado haciendo enormes cantidades de dinero gracias a una nueva plataforma para hacer transacciones con criptomonedas (escríbanme si quieren más detalles), ¡Y lo sorprendí con el AUTO DE SUS SUEÑOS! ¡Su raección NO TIENE PRECIO! ¡Te amo, hermanito!"} />
               <div className="content-text">
                 <h2 className="title-2">
                   ¿{OFFER_NAME} DE VERDAD FUNCIONA? LO PROBAMOS NOSOTROS MISMOS
@@ -316,13 +307,8 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img7.jpg"
-                }
-                txt={
-                  `Su familia estaba luchando para que el dinero les alcanzara y tenían sus esperanzas puestas en que ${OFFER_NAME} les ayudaría a aliviar la presión, así que Juan decidió probar el sistema y hablar sobre los resultados que obtuvo.`
-                }
-              />
+                src={"https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img7.jpg"}
+                txt={`Su familia estaba luchando para que el dinero les alcanzara y tenían sus esperanzas puestas en que ${OFFER_NAME} les ayudaría a aliviar la presión, así que Juan decidió probar el sistema y hablar sobre los resultados que obtuvo.`} />
               <div className="content-text">
                 <h3 className="title-3">Juan informa que:</h3>
                 <p>
@@ -445,13 +431,8 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img8.jpg"
-                }
-                txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
-                }
-              />
+                src={"https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img8.jpg"}
+                txt={`Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`} />
               <div className="content-text">
                 <h3 className="title-3">Juan dice,</h3>
                 <p>
@@ -490,7 +471,7 @@ function App() {
                   (incluido mi jefe) ya se había registrado. Ahora dicen que soy
                   un 'héroe' por haberlo intentado".
                 </p>
-                <h2 className="title-2" onClick={()=>handleRoute("text link")}>
+                <h2 className="title-2" onClick={() => handleRoute("text link")}>
                   CÓMO EMPEZAR EN {OFFER_NAME} (ESPACIOS LIMITADOS DISPONIBLES)
                 </h2>
                 <p>
@@ -532,10 +513,7 @@ function App() {
               </div>
               <CharacterImage
                 src={Image8}
-                txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
-                }
-              />
+                txt={`Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`} />
               <div className="content-text">
                 <p>
                   Luego de esto te piden que ingreses fondos a tu cuenta.
@@ -545,13 +523,8 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img10.jpg"
-                }
-                txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
-                }
-              />
+                src={"https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img10.jpg"}
+                txt={`Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`} />
               <div className="content-text">
                 <p>
                   Tal y como me esperaba, era mi propio administrador de cuenta
@@ -562,11 +535,8 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img11.jpg"
-                }
-                txt={""}
-              />
+                src={"https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img11.jpg"}
+                txt={""} />
               <div className="content-text">
                 <p>
                   Una vez ingresados los fondos, fui a la sección "Operador
@@ -610,8 +580,7 @@ function App() {
               name={item.name}
               description={item.description}
               number={item.number}
-              time={item.time}
-            />
+              time={item.time} />
           ))}
         </div>
         <div className="sidebar">
@@ -619,10 +588,12 @@ function App() {
         </div>
       </body>
       <MainFooter />
+      <MainFooter />
       <Popup />
       <StickyFooter />
       <MiniModal />
     </div>
+    </>
   );
 }
 

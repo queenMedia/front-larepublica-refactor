@@ -1,0 +1,52 @@
+.headerlogo-comercio {
+    box-shadow: none;
+    background-color: #ffcb05;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    height: 80px;
+}
+
+.headerlogo-comercio .logo-content {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 15px;
+    vertical-align: baseline;
+}
+.headerlogo-comercio .logo-content .a-logo{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.headerlogo-comercio .logo-content .a-logo img{
+    max-height: 48px;
+}
+.headerlogo-comercio .logo-content .btn-suscribe{
+    box-shadow: 0 2px 8px rgba(0,0,0,.12157);
+    color: #665202;
+    font-size: 12px;
+    height: 32px;
+    width: 104px;
+    font-weight: 700;
+    align-items: center;
+    background-color: #fcec4f;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16078);
+    display: flex;
+    font: 900 11px/1 Noto Sans KR,sans-serif;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: baseline;
+}

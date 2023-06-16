@@ -1,0 +1,8 @@
+@media (max-width: 639px) {
+    .header-bottom-comercio {
+        display: none;
+    }
+    .header-bottom-comercio ul {
+        margin: 0;
+    }
+}
