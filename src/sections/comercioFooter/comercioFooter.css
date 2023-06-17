@@ -89,8 +89,7 @@
     margin-bottom: 47px;
     text-align: center;
     list-style: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0;
 }
 .footer-section .f-content .links li{ 
     display: inline-block;
@@ -104,7 +103,10 @@
 .footer-section .f-content .links li a{ 
     color: #000;
     text-decoration: none;
-    display: contents;
+    display: inline;
+}
+.footer-section .f-content .links li a:hover{ 
+    text-decoration: underline;
 }
 .footer-section .f-content .links li:not(:first-child):before {
     content: "·";
@@ -137,6 +139,9 @@
     color: #000;
     text-decoration: none;
     display: initial;
+}
+.footer-section .f-content .gec li a:hover{ 
+    text-decoration: underline;
 }
 .footer-section .f-content .gec li:not(:first-child):before {
     content: "·";
