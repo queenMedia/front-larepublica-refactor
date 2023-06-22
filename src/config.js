@@ -1,9 +1,9 @@
 import axios from "axios";
-import MODAL_IMG from "./assets/images/modal/CODE.png";
+import MODAL_IMG from "./assets/images/modal/INMEDIATEEDGE.png";
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Dina Boluarte";
-export const OFFER_NAME = "Bitcoin Code";
+export const OFFER_NAME = "InmediateEdge";
 export const MODAL = MODAL_IMG;
 export const SUBTITLE_FIRST_LINE ="Ya los latinoamericanos están amasando millones de USD desde sus casas gracias a";
 export const SUBTITLE_SECOND_LINE = `esta "laguna", pero ¿es legal?`;
