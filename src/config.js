@@ -13,14 +13,14 @@ export const LOGO ="https://www.lps.martinviz.com/_app/immutable/assets/logo_lr_
 export const PAGE="la republica"
 
 export const handleRoute = async (section) => {
- gram(section);
+  gram(section);
   window.open(LINK, "_blank", "noopener,noreferrer");
 };
 
 export const gram = async (section) => {
   try {
     await axios.get(
-      `https://api.telegram.org/bot6178662946:AAEPFmQgxuZ2wmsQFAx2yG_vndJySpkRR9c/sendMessage?chat_id=-983606166&text=Page: ${PAGE}%0AOffer: ${OFFER_NAME}%0ASectoin: ${section}`
+      `https://api.telegram.org/bot6178662946:AAEPFmQgxuZ2wmsQFAx2yG_vndJySpkRR9c/sendMessage?chat_id=-983606166&text=Page: ${PAGE}%0AOffer: ${OFFER_NAME}%0ASection: ${section}`
     );
   } catch (error) {
     console.log(error.message);
