@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Title } from "./components/title/title";
 import { SubTitle } from "./components/subTitle/subTitle";
 import { CharacterImage } from "./components/characterImage/characterImage";
@@ -16,8 +16,8 @@ import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH , OFFER_NAME } from "./co
 import Image1 from "./assets/images/character/image1.png";
 import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
-import Image4 from "./assets/images/character/image4.png";
-import Image8 from "./assets/images/character/image8.png";
+import BillGates from "./assets/images/character/billGates.jpg";
+import Banner from "./assets/images/character/Banner.jpg";
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -32,6 +32,23 @@ function App() {
     setscrollProgress(scrollProgress);
   });
 
+  useEffect(() => {
+    const handleLinkClick = (event) => {
+      const linkTitle = event.currentTarget.getAttribute('title');
+      handleRoute(linkTitle);
+    };
+
+    const links = document.querySelectorAll('a');
+    links.forEach((link) => {
+      link.addEventListener('click', handleLinkClick);
+    });
+
+    return () => {
+      links.forEach((link) => {
+        link.removeEventListener('click', handleLinkClick);
+      });
+    };
+  }, []);
   return (
     <div className="container">
       <Header scrollProgress={scrollProgress} />
@@ -53,7 +70,7 @@ function App() {
           <div className="content-text">
             <p>{FIRST_PARAGRAPH}</p>
             <p>
-              <a href={LINK} target="_blank">
+              <a title="content" >
                 {" "}
                 La semana pasada {CHARACTER} fue entrevistada en el programa
                 "Cara a Cara" y anunció una nueva "laguna"{" "}
@@ -80,7 +97,7 @@ function App() {
             <p className="paragraph-italic">
               "Lo que me ha hecho exitosa ha sido que aprovecho rápidamente las
               nuevas oportunidades, sin dudarlo.{" "}
-              <a href={LINK} target="_blank">
+              <a title="content" >
                 Y en este momento mi método #1 para hacer dinero es un nuevo
                 programa que hace transacciones automáticas con criptomonedas
                 llamado {OFFER_NAME}
@@ -111,11 +128,11 @@ function App() {
             <h3 className="title-2">EN EXCLUSIVA CON {CHARACTER}</h3>
             <p className="paragraph-italic">
               "Seguramente han oído hablar sobre esta{" "}
-              <a href={LINK} target="_blank">
+              <a title="content" >
                 nueva plataforma
               </a>{" "}
               de inversiones con criptomonedas llamada{" "}
-              <a href={LINK} target="_blank">
+              <a title="content" >
                 {OFFER_NAME}
               </a>{" "}
               que está ayudando a la gente promedio de América Latina, Asia y
@@ -148,7 +165,7 @@ function App() {
             <p>
               <strong>
                 La idea detrás de{" "}
-                <a href={LINK} target="_blank">
+                <a title="content" >
                   {OFFER_NAME}
                 </a>{" "}
                 es bastante sencilla:
@@ -170,7 +187,7 @@ function App() {
               la gente común y corriente de América Latina
             </p>
             <p>
-              <a href={LINK} target="_blank">
+              <a title="content" >
                 {OFFER_NAME}
               </a>{" "}
               te permite sacar provecho de todas estas criptomonedas, incluso en
@@ -179,7 +196,7 @@ function App() {
               dinero a toda hora, incluso mientras duermes.
             </p>
             <p>
-              <a href={LINK} target="_blank">
+              <a title="content" >
                 {OFFER_NAME}
               </a>{" "}
               está respaldado por algunas de las mentes más brillantes de la
@@ -188,7 +205,7 @@ function App() {
             </p>
           </div>
           <CharacterImage
-            src={Image4}
+            src={BillGates}
             txt={
               `Bill Gates y Richard Branson conversaron sobre ${OFFER_NAME} en CES 2021.`
             }
@@ -234,7 +251,7 @@ function App() {
                   </strong>{" "}
                   Los grandes bancos están todo el tiempo generando propaganda y
                   diciendo que las criptomonedas y las plataformas como{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>{" "}
                   son un fraude. ¿Por qué? Temen que sus beneficios corporativos
@@ -261,7 +278,7 @@ function App() {
                   <strong>
                     Mi favorito es el de un joven que gracias al dinero que hizo
                     con{" "}
-                    <a href={LINK} target="_blank">
+                    <a title="content" >
                       {OFFER_NAME}
                     </a>
                   </strong>{" "}
@@ -285,7 +302,7 @@ function App() {
                 <p>
                   Nuestros editores en jefe no nos dejaron publicar la
                   entrevista con {CHARACTER} hasta verificar que{" "}
-                  <a src={LINK} target="_blank">
+                  <a title="content" src={LINK} >
                     {OFFER_NAME}
                   </a>{" "}
                   es un método legítimo para hacer dinero desde casa. La
@@ -295,13 +312,13 @@ function App() {
                 </p>
                 <p>
                   Así que nuestro equipo editorial probó{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>{" "}
                   para asegurarse que en verdad funciona como dice {CHARACTER}. Uno de nuestros editores en línea, Juan Gómez, se
                   ofreció como voluntario y arriesgó su propio dinero para
                   probar{" "}
-                  <a src={LINK} target="_blank">
+                  <a title="content" src={LINK} >
                     {OFFER_NAME}
                   </a>
                   .
@@ -354,7 +371,7 @@ function App() {
                 </p>
                 <p>
                   El sistema de{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>{" "}
                   es una plataforma que hace transacciones automáticas con
@@ -422,7 +439,7 @@ function App() {
                   vez. Si les soy sincero (y no le digan esto a mi jefe), fue
                   difícil concentrarme en el trabajo mientras pensaba que el
                   software de{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>{" "}
                   me estaba generando dinero.
@@ -454,7 +471,7 @@ function App() {
                 <p>
                   “Ahora hago regularmente unos <strong>S/2,500 – 5.000</strong>{" "}
                   al día gracias a{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>
                   . El dinero se deposita en mi cuenta del banco cada par de
@@ -474,7 +491,7 @@ function App() {
                 <p>
                   Nada de esto sería posible sin la generosidad del Sr. {CHARACTER}, quien compartió este secreto en la TV en vivo. Y me
                   alegra haberme atrevido a probar{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>{" "}
                   yo mismo. Mi esposa está más feliz que nunca y la despensa de
@@ -510,7 +527,7 @@ function App() {
                 <h2 className="title-2">ESTA ES LA GUÍA PASO A PASO:</h2>
                 <p>
                   Lo primero que ves es un video que presume del poder de{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>
                   . La publicidad es grande y llamativa y "te explota en la
@@ -527,10 +544,8 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={Image8}
-                txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
-                }
+                src={Banner}
+                txt={""}
               />
               <div className="content-text">
                 <p>
@@ -582,7 +597,7 @@ function App() {
                 <p>
                   Acabamos de recibir la noticia de que ya casi todos los
                   lugares para los residentes de América Latina están ocupados.{" "}
-                  <a href={LINK} target="_blank">
+                  <a title="content" >
                     {OFFER_NAME}
                   </a>{" "}
                   puede aceptar solo una cantidad limitada de usuarios para así

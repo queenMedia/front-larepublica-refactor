@@ -1,11 +1,10 @@
 import axios from "axios";
-import CODE from "./assets/images/modal/CODE.png";
-import PRIME from "./assets/images/modal/PRIME.png";
+import MODAL_IMG from "./assets/images/modal/CODE.png";
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Dina Boluarte";
 export const OFFER_NAME = "Bitcoin Code";
-export const MODAL = CODE;
+export const MODAL = MODAL_IMG;
 export const SUBTITLE_FIRST_LINE ="Ya los latinoamericanos están amasando millones de USD desde sus casas gracias a";
 export const SUBTITLE_SECOND_LINE = `esta "laguna", pero ¿es legal?`;
 export const FIRST_PARAGRAPH = `La presidenta de Perú, ${CHARACTER}, es famosa por no guardarse ningún secreto y por hablar simple y llanamente de como gana su dinero. Y siempre está ansiosa por ayudar a la gente común.`;
