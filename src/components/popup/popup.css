@@ -12,7 +12,7 @@
 }
 .popup_container {
   position: relative;
-  padding: 30px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -37,7 +37,7 @@
 }
 .popup_container_close_container{
   width: 100%;
-  margin-top: -20px;
+  margin-top: 0px;
   display: flex;
   position: absolute;
   justify-content: flex-end;
@@ -89,7 +89,7 @@
   max-width: 2000px;
   padding: 9px 20px;
   border-radius: 5px;
-  background-color: #f8d263;
+  background-color: #cbff01;
   color: #000;
   font-family: "Roboto", sans-serif;
   animation: 1s ease 0s infinite normal none running animation-he6h7w;
