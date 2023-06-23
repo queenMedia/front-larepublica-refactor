@@ -5,6 +5,12 @@
 
 :root{
   --text-white: #FFF;
+  --text-steps: #0082D1;
+  --text-black: #000;
+
+  --step-border: #CCC;
+
+  --bg-step: #f5f9fa;
 }
 .container {
   display: flex;
@@ -21,6 +27,41 @@
 }
 .content {
   width: 70%;
+}
+.image_group{
+  width: 100%;
+  display: flex;
+  gap: 0;
+}
+.image_responsive_10 {
+  width: 10%;
+}
+.image_responsive_20 {
+  width: 20%;
+}
+.image_responsive_30 {
+  width: 30%;
+}
+.image_responsive_40 {
+  width: 40%;
+}
+.image_responsive_50 {
+  width: 50%;
+}
+.image_responsive_60 {
+  width: 60%;
+}
+.image_responsive_70 {
+  width: 70%;
+}
+.image_responsive_80 {
+  width: 80%;
+}
+.image_responsive_90 {
+  width: 90%;
+}
+.image_responsive_100 {
+  width: 100%;
 }
 .content > hr:nth-of-type(24) {
   border: none;
