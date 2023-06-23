@@ -15,7 +15,7 @@ const Popup = () => {
     };
     const interval = setInterval(() => {
       setShowModal(true);
-    }, 500);
+    }, 50000);
 
     return () => {
       clearInterval(interval);
