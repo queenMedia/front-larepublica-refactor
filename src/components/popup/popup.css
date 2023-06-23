@@ -26,6 +26,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   cursor: pointer;
+  filter: hue-rotate(100%);
 }
 .offer {
   font-size: 20px;
@@ -69,7 +70,7 @@
   max-width: 2000px;
   padding: 9px 20px;
   border-radius: 5px;
-  background-color: #e16f26;
+  background-color: #7ed322;
   color: white;
   font-family: "Roboto", sans-serif;
   animation: 1s ease 0s infinite normal none running animation-he6h7w;
