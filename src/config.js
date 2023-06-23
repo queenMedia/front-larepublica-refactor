@@ -3,7 +3,7 @@ import MODAL_IMG from "./assets/images/modal/BitcoinEra.png";
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Dina Boluarte";
-export const OFFER_NAME = "Bitcoin Era";
+export const OFFER_NAME = "BITCOIN ERA";
 export const MODAL = MODAL_IMG;
 export const SUBTITLE_FIRST_LINE ="Ya los latinoamericanos están amasando millones de USD desde sus casas gracias a";
 export const SUBTITLE_SECOND_LINE = `esta "laguna", pero ¿es legal?`;
