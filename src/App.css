@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'ModalFont';
+  src: url("./assets/fonts/HelveticaNeueLTStd75Bold.otf") format('truetype');
+}
+
+:root{
+  --text-white: #FFF;
+}
 .container {
   display: flex;
   flex-direction: column;
