@@ -5,8 +5,16 @@ import C from "../../assets/images/c.png";
 import { handleRoute } from "../../config";
 export const Step1 = () => {
   return (
-    <div className="step1-container" onClick={() => handleRoute("step1")}>
-      <img src={A} alt="Paso 1" />
+    <div className="step1-container" >
+      <a className="step_one_container" onClick={() => handleRoute("step1")}>
+        <p className="step_one_container_title">
+          Paso 1
+        </p>
+        <p className="step_one_container_subtitle">
+          Regístrate, es gratis
+        </p>
+        <img src={A} alt="Paso 1" />
+      </a>
       <br />
       <img src={B} alt="Paso 1" />
       <br />
