@@ -1,4 +1,38 @@
 .step1-container img{
     width: -webkit-fill-available;
-    margin-top: 10px;
+}
+.step_one_container p {}
+.step_one_container{
+    width: 98%;
+    margin-left: 1%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-step);
+    border: 1px solid var(--step-border);
+    text-decoration: none;
+    font-family: 'ModalFont';
+}
+.step_one_container img{
+    padding: 0px 20px;
+}
+.step_one_container_title{
+    margin: 0 0 0 40px;
+    font-size: 15px;
+    font-style: italic;
+    color: var(--text-black);
+}
+.step_one_container_subtitle{
+    font-size: 21px;
+    color: var(--text-steps);
+    padding: 5px 20px;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+}
+.step_general_container {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
 }
