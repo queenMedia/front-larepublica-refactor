@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Title } from "./components/title/title";
 import { SubTitle } from "./components/subTitle/subTitle";
 import { CharacterImage } from "./components/characterImage/characterImage";
+import { CharacterImageGroup } from "./components/characterImageGroup/characterImageGroup";
 import { LinkButton } from "./components/linkButton/linkButton";
 import { ReadMore } from "./components/readMore/readMore";
 import SideBar from "./sections/sideBar/sideBar";
@@ -14,6 +15,7 @@ import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
 import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH , OFFER_NAME } from "./config";
 import Image1 from "./assets/images/character/image1.png";
+import Actas from "./assets/images/character/actas.png";
 import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
 import Image4 from "./assets/images/character/image4.png";
@@ -53,7 +55,7 @@ function App() {
           <div className="content-text">
             <p>{FIRST_PARAGRAPH}</p>
             <p>
-              <a href={LINK} target="_blank">
+              <a href={LINK} target="_blank" rel="noreferrer">
                 {" "}
                 La semana pasada {CHARACTER} fue entrevistado en el programa
                 "Cara a Cara" y anunció una nueva "laguna"{" "}
@@ -81,7 +83,7 @@ function App() {
             <p className="paragraph-italic">
               "Lo que me ha hecho exitoso ha sido que aprovecho rápidamente las
               nuevas oportunidades, sin dudarlo.{" "}
-              <a href={LINK} target="_blank">
+              <a href={LINK} target="_blank" rel="noreferrer">
                 Y en este momento mi método #1 para hacer dinero es un nuevo
                 programa que hace transacciones automáticas con criptomonedas
                 llamado {OFFER_NAME}
@@ -98,7 +100,9 @@ function App() {
             </p>
           </div>
           <LinkButton />
-          <CharacterImage src={Image2} txt={""} />
+          <CharacterImageGroup 
+            img={Image2}
+            img2={Actas}/>
           <div className="content-text">
             <p>
               El tiempo del programa se agotó antes de que pudiera explicar todo
@@ -112,11 +116,11 @@ function App() {
             <h3 className="title-2">EN EXCLUSIVA CON {CHARACTER}</h3>
             <p className="paragraph-italic">
               "Seguramente han oído hablar sobre esta{" "}
-              <a href={LINK} target="_blank">
+              <a href={LINK} target="_blank" rel="noreferrer">
                 nueva plataforma
               </a>{" "}
               de inversiones con criptomonedas llamada{" "}
-              <a href={LINK} target="_blank">
+              <a href={LINK} target="_blank" rel="noreferrer">
                 {OFFER_NAME}
               </a>{" "}
               que está ayudando a la gente promedio de América Latina, Asia y
@@ -149,7 +153,7 @@ function App() {
             <p>
               <strong>
                 La idea detrás de{" "}
-                <a href={LINK} target="_blank">
+                <a href={LINK} target="_blank" rel="noreferrer">
                   {OFFER_NAME}
                 </a>{" "}
                 es bastante sencilla:
@@ -171,7 +175,7 @@ function App() {
               la gente común y corriente de América Latina
             </p>
             <p>
-              <a href={LINK} target="_blank">
+              <a href={LINK} target="_blank" rel="noreferrer">
                 {OFFER_NAME}
               </a>{" "}
               te permite sacar provecho de todas estas criptomonedas, incluso en
@@ -180,7 +184,7 @@ function App() {
               dinero a toda hora, incluso mientras duermes.
             </p>
             <p>
-              <a href={LINK} target="_blank">
+              <a href={LINK} target="_blank" rel="noreferrer">
                 {OFFER_NAME}
               </a>{" "}
               está respaldado por algunas de las mentes más brillantes de la
@@ -235,7 +239,7 @@ function App() {
                   </strong>{" "}
                   Los grandes bancos están todo el tiempo generando propaganda y
                   diciendo que las criptomonedas y las plataformas como{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>{" "}
                   son un fraude. ¿Por qué? Temen que sus beneficios corporativos
@@ -262,7 +266,7 @@ function App() {
                   <strong>
                     Mi favorito es el de un joven que gracias al dinero que hizo
                     con{" "}
-                    <a href={LINK} target="_blank">
+                    <a href={LINK} target="_blank" rel="noreferrer">
                       {OFFER_NAME}
                     </a>
                   </strong>{" "}
@@ -296,7 +300,7 @@ function App() {
                 </p>
                 <p>
                   Así que nuestro equipo editorial probó{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>{" "}
                   para asegurarse que en verdad funciona como dice Martin
@@ -357,7 +361,7 @@ function App() {
                 </p>
                 <p>
                   El sistema de{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>{" "}
                   es una plataforma que hace transacciones automáticas con
@@ -425,7 +429,7 @@ function App() {
                   vez. Si les soy sincero (y no le digan esto a mi jefe), fue
                   difícil concentrarme en el trabajo mientras pensaba que el
                   software de{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>{" "}
                   me estaba generando dinero.
@@ -457,7 +461,7 @@ function App() {
                 <p>
                   “Ahora hago regularmente unos <strong>S/2,500 – 5.000</strong>{" "}
                   al día gracias a{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>
                   . El dinero se deposita en mi cuenta del banco cada par de
@@ -478,7 +482,7 @@ function App() {
                   Nada de esto sería posible sin la generosidad del Sr. Martin
                   Vizcarra, quien compartió este secreto en la TV en vivo. Y me
                   alegra haberme atrevido a probar{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>{" "}
                   yo mismo. Mi esposa está más feliz que nunca y la despensa de
@@ -514,7 +518,7 @@ function App() {
                 <h2 className="title-2">ESTA ES LA GUÍA PASO A PASO:</h2>
                 <p>
                   Lo primero que ves es un video que presume del poder de{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>
                   . La publicidad es grande y llamativa y "te explota en la
@@ -586,7 +590,7 @@ function App() {
                 <p>
                   Acabamos de recibir la noticia de que ya casi todos los
                   lugares para los residentes de América Latina están ocupados.{" "}
-                  <a href={LINK} target="_blank">
+                  <a href={LINK} target="_blank" rel="noreferrer">
                     {OFFER_NAME}
                   </a>{" "}
                   puede aceptar solo una cantidad limitada de usuarios para así
