@@ -3,6 +3,7 @@
     margin-top: 10px;
 }
 .step_one_container{
+    max-width: 316px;
     width: 100%;
     padding: 20px 10px 10px 10px;
     display: flex;
@@ -19,6 +20,7 @@
     color: var(--text-black);
 }
 .step_one_container_subtitle{
+    margin: 0;
     font-size: 21px;
     color: var(--text-steps);
     font-size: 15px;
