@@ -1,5 +1,5 @@
 import "./step1.css";
-import A from "../../assets/images/a.png";
+import A from "../../assets/images/QuantumAI.png";
 import B from "../../assets/images/b.png";
 import C from "../../assets/images/c.png";
 import { handleRoute } from "../../config";
