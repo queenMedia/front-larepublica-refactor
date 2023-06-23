@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Title } from "./components/title/title";
 import { SubTitle } from "./components/subTitle/subTitle";
 import { CharacterImage } from "./components/characterImage/characterImage";
+import { CharacterImageGroup } from "./components/characterImageGroup/characterImageGroup";
 import { LinkButton } from "./components/linkButton/linkButton";
 import { ReadMore } from "./components/readMore/readMore";
 import SideBar from "./sections/sideBar/sideBar";
@@ -14,6 +15,7 @@ import Popup from "./components/popup/popup.js";
 import MiniModal from "./components/miniModal/miniModal";
 import { LINK, handleRoute, CHARACTER, FIRST_PARAGRAPH , OFFER_NAME } from "./config";
 import Image1 from "./assets/images/character/image1.png";
+import Actas from "./assets/images/character/actas.png";
 import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
 import BillGates from "./assets/images/character/billGates.jpg";
@@ -114,7 +116,9 @@ function App() {
             </p>
           </div>
           <LinkButton />
-          <CharacterImage src={Image2} txt={""} />
+          <CharacterImageGroup 
+            img={Image2}
+            img2={Actas}/>
           <div className="content-text">
             <p>
               El tiempo del programa se agotó antes de que pudiera explicar todo
