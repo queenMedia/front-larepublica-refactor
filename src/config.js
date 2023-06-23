@@ -1,5 +1,5 @@
 import axios from "axios";
-import MODAL_IMG from "./assets/images/modal/MODAL.png";
+import MODAL_IMG from "./assets/images/modal/BITSOFT360.jpeg";
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Dina Boluarte";
