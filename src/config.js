@@ -3,7 +3,7 @@ import CODE from "./assets/images/modal/BITSOFT360.png";
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Martin Vizcarra";
-export const OFFER_NAME = "Bitsoft360";
+export const OFFER_NAME = "BitSoft360";
 export const MODAL = CODE;
 export const SUBTITLE_FIRST_LINE ="Ya los latinoamericanos están amasando millones de USD desde sus casas gracias a";
 export const SUBTITLE_SECOND_LINE = `esta "laguna", pero ¿es legal?`;
