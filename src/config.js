@@ -1,5 +1,5 @@
 import axios from "axios";
-import EDGE from "./assets/images/modal/Immediate Edge.png";
+import EDGE from "./assets/images/modal/ImmediateEdge.png";
 
 export const LINK = "https://givemes.com/outgoing";
 export const CHARACTER = "Martin Vizcarra";
