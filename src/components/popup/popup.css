@@ -90,9 +90,9 @@
   width: 200px;
   max-width: 2000px;
   padding: 9px 20px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  color: #000;
+  /*border-radius: 5px;*/
+  background-color: #588D9D;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   animation: 1s ease 0s infinite normal none running animation-he6h7w;
   cursor: pointer;
