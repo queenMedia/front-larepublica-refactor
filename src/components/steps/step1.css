@@ -19,6 +19,7 @@
     color: var(--text-black);
 }
 .step_one_container_subtitle{
+    margin: 0;
     font-size: 21px;
     color: var(--text-steps);
     font-size: 15px;
