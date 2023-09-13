@@ -21,6 +21,8 @@ import Image3 from "./assets/images/character/image3.png";
 import BillGates from "./assets/images/character/billGates.jpg";
 import Banner from "./assets/images/character/Banner.jpg";
 
+
+
 function App() {
   const [readMore, setReadmore] = useState(false);
   const [scrollProgress, setscrollProgress] = useState(0);
