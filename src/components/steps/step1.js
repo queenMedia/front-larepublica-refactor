@@ -1,5 +1,5 @@
 import "./step1.css";
-import A from "../../assets/images/Bitcoin360AI.png";
+import * as config from "../../config"
 import B from "../../assets/images/b.png";
 import C from "../../assets/images/c.png";
 import { handleRoute } from "../../config";
@@ -13,7 +13,7 @@ export const Step1 = () => {
         <p className="step_one_container_subtitle">
           Regístrate, es gratis
         </p>
-        <img src={A} alt="Paso 1" />
+        <img src={config.sideBarForm} alt="Paso 1" />
       </a>
       <br />
       <img src={B} alt="Paso 1" />

@@ -3,6 +3,10 @@
   src: url("./assets/fonts/HelveticaNeueLTStd75Bold.otf") format('truetype');
 }
 
+* {
+  box-sizing: border-box;
+}
+
 :root{
   --text-white: #FFF;
   --text-steps: #0082D1;
@@ -66,6 +70,24 @@
 .content > hr:nth-of-type(24) {
   border: none;
 }
+
+.image_group_table{
+width: 100%;
+display: flex;
+box-sizing: border-box;
+margin-bottom: 20px;
+}
+
+.character_2{
+  width: 60%;
+  height: auto;
+}
+
+.character_2_table{
+  width: 40%;
+  height: auto;
+}
+
 .sidebar {
   margin-top: 7px;
   width: 30%;

@@ -20,7 +20,7 @@ const SideBar = () => {
           </p>
         }
         name={"Sofia Hernández Callao"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/victoriaPE.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/woman/1.webp"}
       />
       <SideTitle txt={"GANANCIAS: S/79,620"} />
       <SideTestimonial
@@ -32,7 +32,7 @@ const SideBar = () => {
           </p>
         }
         name={"Jimena Alba Chiclayo"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/jimenaPE.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/woman/2.webp"}
       />
       <SideTitle txt={"GANANCIAS: S/79,620"} />
       <SideTestimonial
@@ -47,7 +47,7 @@ const SideBar = () => {
           </p>
         }
         name={"Alejandro Chávez Piura"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/alejandroPE.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/man/1.webp"}
       />
       <SideTitle txt={"GANANCIAS: S/33,281"} />
       <SideTestimonial
@@ -59,7 +59,7 @@ const SideBar = () => {
           </p>
         }
         name={"Victoria Pérez Huancayo"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/sofiaPE.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/woman/3.webp"}
       />
       <SideTitle txt={"GANANCIAS: S/44,080"} />
       <SideTestimonial
@@ -73,7 +73,7 @@ const SideBar = () => {
           </p>
         }
         name={"Alejandro Flores & Carlo Lima Arequipa"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/alecarlopng.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/man/2.webp"}
       />
       <SideTitle txt={"GANANCIAS: S/210,529"} />
       <SideTestimonial
@@ -87,7 +87,7 @@ const SideBar = () => {
           </p>
         }
         name={"Mateo Guerra Trujillo"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/mateoPE.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/man/3.webp"}
       />
       <SideTitle txt={"GANANCIAS: S/150,300"} />
       <SideTestimonial
@@ -102,7 +102,7 @@ const SideBar = () => {
           </p>
         }
         name={"Santiago Sánchez Lima"}
-        src={"https://pgenpro-test.s3.amazonaws.com/fakeNames/santiagoPE.png"}
+        src={"https://cmps-assets.s3.amazonaws.com/prelanders/sharing/testimonials/pe/man/4.webp"}
       />
       <SideTitle txt={"SIGUE ESTOS 3 SENCILLOS PASOS PARA EMPEZAR:"} />
       <Step1 />
