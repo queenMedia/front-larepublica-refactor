@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { handleRoute, MODAL } from "../../config";
+
 import iconClose from "../../assets/images/icons/icon-close.svg";
 import "./popup.css";
 

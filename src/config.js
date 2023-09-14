@@ -1,5 +1,4 @@
 import axios from "axios";
-import MODAL_IMG from "./assets/images/modal/BITCOIN360AI.jpeg";
 
 export const LINK = "https://givemes.com/outgoing";
 export const url_bucket= "https://cmps-assets.s3.amazonaws.com/prelanders";
@@ -23,9 +22,9 @@ export const CheckImg = `${url_bucket}/sharing/checks/${currencyCode}.webp`;
 export const OfferBannerImg = `${url_bucket}/${offer_key_name}/banners/${currencyCode}.webp`;
 export const Step2Img = `${url_bucket}/sharing/steps/${language}/pen/2.webp`;
 export const Step3Img = `${url_bucket}/sharing/steps/${language}/pen/3.webp`;
+export const MODAL = `${url_bucket}/${offer_key_name}/modal/modal.webp`;
 export const formSideBar = `${url_bucket}/${offer_key_name}/forms/${language}.webp`;
 export const sideBarForm = `${url_bucket}/${offer_key_name}/forms/${currencyCode}.webp`;
-export const MODAL = MODAL_IMG;
 export const SUBTITLE_FIRST_LINE ="Ya los latinoamericanos están amasando millones de USD desde sus casas gracias a";
 export const SUBTITLE_SECOND_LINE = `esta "laguna", pero ¿es legal?`;
 export const FIRST_PARAGRAPH = `La presidenta de Perú, ${CHARACTER}, es famosa por no guardarse ningún secreto y por hablar simple y llanamente de como gana su dinero. Y siempre está ansiosa por ayudar a la gente común.`;
