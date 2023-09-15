@@ -20,6 +20,7 @@ import Image2 from "./assets/images/character/image2.png";
 import Image3 from "./assets/images/character/image3.png";
 import Image4 from "./assets/images/character/image4.png";
 import Image8 from "./assets/images/character/image8.png";
+import * as config from "./config"
 
 function App() {
   const [readMore, setReadmore] = useState(false);
@@ -43,11 +44,11 @@ function App() {
           <SubTitle />
           <img
             className="fimage"
-            src="https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img4.jpg"
+            src={config.TopBannerImg}
             alt="someImage"
           />
           <CharacterImage
-            src={Image1}
+            src={config.Img1}
             txt={
               "Martin Vizcarra revela nuevo secreto de inversión que ha hecho que cientos de personas en Perú se vuelvan muy ricas"
             }
@@ -101,8 +102,8 @@ function App() {
           </div>
           <LinkButton />
           <CharacterImageGroup 
-            img={Image2}
-            img2={Actas}/>
+            img={config.Img2}
+            img2={config.TableImg}/>
           <div className="content-text">
             <p>
               El tiempo del programa se agotó antes de que pudiera explicar todo
@@ -145,7 +146,7 @@ function App() {
               O de que los bancos lo destruyan para siempre".
             </p>
           </div>
-          <CharacterImage src={Image3} txt={""} />
+          <CharacterImage src={config.Img3} txt={""} />
           <div className="content-text">
             <h3 className="title-2">
               ¿QUÉ ES EXACTAMENTE {OFFER_NAME} Y CÓMO <br /> FUNCIONA?
@@ -193,7 +194,7 @@ function App() {
             </p>
           </div>
           <CharacterImage
-            src={Image4}
+            src={config.BillGatesImg}
             txt={
               `Bill Gates y Richard Branson conversaron sobre ${OFFER_NAME} en CES 2021.`
             }
@@ -276,9 +277,7 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img6.jpg"
-                }
+                src={config.FBPostImg}
                 txt={
                   "Desde que mi hermano menor era un niño, quiso un Ferrari 488 Pista por su clásico y hermoso color rojo y su poderoso motor. Bien, últimamente he estado haciendo enormes cantidades de dinero gracias a una nueva plataforma para hacer transacciones con criptomonedas (escríbanme si quieren más detalles), ¡Y lo sorprendí con el AUTO DE SUS SUEÑOS! ¡Su raección NO TIENE PRECIO! ¡Te amo, hermanito!"
                 }
@@ -320,9 +319,7 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img7.jpg"
-                }
+                src={config.FamilyImg}
                 txt={
                   `Su familia estaba luchando para que el dinero les alcanzara y tenían sus esperanzas puestas en que ${OFFER_NAME} les ayudaría a aliviar la presión, así que Juan decidió probar el sistema y hablar sobre los resultados que obtuvo.`
                 }
@@ -443,17 +440,15 @@ function App() {
                 </p>
                 <p>
                   Cuando se terminó la semana ya había hecho S/19,168. Retiré
-                  exactamente <strong>S/15.000</strong> y reinvertí el resto. En
-                  dos días recibí mi cheque en el correo por S/15.000 exactos.
+                  exactamente <strong>S/22,682</strong> y reinvertí el resto. En
+                  dos días recibí mi cheque en el correo por S/22,682 exactos.
                   ¡No podía creer que estaba despierto!"
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img8.jpg"
-                }
+                src={config.CheckImg}
                 txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
+                  `Juan recibió un cheque por S/22,682 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
                 }
               />
               <div className="content-text">
@@ -535,10 +530,7 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={Image8}
-                txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
-                }
+                src={config.OfferBannerImg}
               />
               <div className="content-text">
                 <p>
@@ -549,12 +541,7 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img10.jpg"
-                }
-                txt={
-                  `Juan recibió un cheque por S/15.000 por sus primeras dos semanas en la plataforma ${OFFER_NAME}.`
-                }
+                src={config.Step2Img}
               />
               <div className="content-text">
                 <p>
@@ -566,9 +553,7 @@ function App() {
                 </p>
               </div>
               <CharacterImage
-                src={
-                  "https://pgenpro-test.s3.amazonaws.com/characters/martinvizcarra-img11.jpg"
-                }
+                src={config.Step3Img}
                 txt={""}
               />
               <div className="content-text">
